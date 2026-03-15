@@ -94,19 +94,34 @@ Je couvre l'intégralité du pipeline — de l'exploration des données au dépl
 
 ---
 
-### 🏥 OncoAI PRO — Plateforme de Diagnostic Oncologique
+### 🏥 [OncoAI PRO](https://cancerdetesction.streamlit.app) — Plateforme de Diagnostic Oncologique
 **Aide au diagnostic cancer basée sur l'IA — 23 paramètres cliniques, modèle ONNX, audit trail médical**
 
-> La détection précoce du cancer sauve des vies. OncoAI PRO est une plateforme clinique de grade professionnel qui prédit le risque cancer à partir de 23 paramètres patient (âge, symptômes, facteurs environnementaux). Chaque diagnostic est automatiquement journalisé pour assurer la traçabilité médicale. L'interface expose les variables les plus influentes pour une décision transparente et explicable.
+> La détection précoce du cancer sauve des vies. OncoAI PRO est une plateforme clinique de grade professionnel qui prédit le risque cancer à partir de **23 paramètres patient** (âge, symptômes, facteurs environnementaux). Elle combine un moteur d'analyse exploratoire des données, un système d'inférence IA en temps réel et un audit trail médical complet pour assurer la traçabilité de chaque diagnostic.
+
+**Architecture du projet :**
+
+| Dossier / Fichier | Rôle |
+|---|---|
+| `app.py` | Point d'entrée — Landing Page & Navigation |
+| `pages/analytics.py` | Analytics Engine — visualisation cohorte & features |
+| `pages/diagnosis.py` | AI Diagnosis — formulaire 23 paramètres + inférence |
+| `src/` | IA Engine, Data Analytics, Storage, Styles |
+| `models/` | Modèle ML (`.pkl` → `.onnx`) |
+| `data/raw/` | Dataset patients `.xlsx` |
+| `data/prediction_history.csv` | Journal d'audit — historique de toutes les prédictions |
+| `assets/` | Ressources visuelles et identité de marque |
 
 **Fonctionnalités :**
-- 🎯 Inférence sur 23 paramètres cliniques avec score de risque et niveau de confiance
-- 📊 Analytics Engine : statistiques de cohorte + importance des variables du modèle
-- 📋 Audit Log : historique complet des prédictions en CSV (traçabilité médicale)
-- 📤 Export des données cliniques filtrées
-- 🏗️ Architecture modulaire : `app.py` · `pages/` · `src/` · `models/` · `data/`
+- 🎯 **AI Diagnosis** : saisie de 23 paramètres cliniques → score de risque + niveau de confiance
+- 📊 **Analytics Engine** : statistiques réelles de cohorte + importance des variables du modèle
+- 📋 **Audit Log** : chaque diagnostic automatiquement sauvegardé en CSV (traçabilité médicale)
+- 📤 Export CSV des données cliniques filtrées
+- 🔍 Interprétabilité : visualisation des variables les plus influentes sur la prédiction
 
-**Stack :** Python · Streamlit · ONNX Runtime · Scikit-Learn · Jupyter
+**Stack :** Python · Streamlit · ONNX Runtime · Scikit-Learn · Jupyter Notebook · Pandas
+
+> ⚠️ *Outil d'aide à la décision médicale — les résultats doivent être interprétés par un professionnel de santé qualifié.*
 
 🔗 [github.com/MonsterH-H/Cancerdetesction](https://github.com/MonsterH-H/Cancerdetesction) · 🌐 [cancerdetesction.streamlit.app](https://cancerdetesction.streamlit.app)
 
@@ -258,17 +273,25 @@ Je couvre l'intégralité du pipeline — de l'exploration des données au dépl
 
 ---
 
-### 🏗️ BuildingSense — SaaS Gestion de Chantiers BTP
+### 🏗️ [BuildingSense](https://buildingsense.vercel.app) — SaaS Gestion de Chantiers BTP
 **Plateforme tout-en-un pour le BTP · 500+ entreprises · 10K+ chantiers · 99.9% uptime**
 
-> Solution SaaS dédiée au secteur du BTP : pilotage de projets en temps réel, coordination d'équipes terrain, planification intelligente par IA, et centralisation documentaire. Conçue pour améliorer la rentabilité des entreprises de construction.
+> BuildingSense est une solution SaaS complète pour les entreprises du BTP : pilotage de chantiers en temps réel, gestion des équipes terrain, planification intelligente par IA, et centralisation des documents. Conçue pour améliorer la rentabilité et simplifier le quotidien des chefs de projet et gérants d'entreprises de construction.
 
 **Fonctionnalités :**
-- 📊 Dashboard temps réel : 10K+ chantiers, suivi avancement, KPIs
-- 👥 Gestion d'équipes et coordination terrain
-- 🤖 Planification intelligente avec optimisation IA des ressources
-- 📁 Documents centralisés accessibles depuis n'importe quel appareil
-- 💰 **+25% de rentabilité** mesurée chez les clients · ROI en 3 mois
+- 📊 **Tableau de bord temps réel** : suivi d'avancement, KPIs, **10K+ chantiers** · **99.9% uptime**
+- 👥 **Gestion d'équipes** : coordination terrain, affectation des tâches, suivi de présence
+- 🤖 **Planification intelligente** : optimisation des ressources par IA pour réduire les délais
+- 📁 **Documents centralisés** : plans, devis, contrats accessibles depuis n'importe quel appareil
+- 💰 **+25% de rentabilité** mesurée chez les clients · ROI prouvé en 3 mois
+
+**Plans disponibles :**
+
+| Plan | Tarif | Utilisateurs | Projets | Support |
+|------|-------|-------------|---------|---------|
+| Starter | 49€/mois | 10 | 5 | Email |
+| Pro ⭐ | 149€/mois | 50 | Illimité | 24/7 + API |
+| Enterprise | Sur mesure | Illimité | Illimité | SLA garanti |
 
 **Stack :** TypeScript · React · Tailwind CSS · Vercel
 
