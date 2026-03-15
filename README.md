@@ -1,20 +1,24 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Handy%20Christ%20TSOKA%20PEME&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%7C%20AI%20Developer%20%7C%20Fullstack%20Dev&descAlignY=56&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=240&section=header&text=Handy%20Christ%20TSOKA%20PEME&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%E2%80%A2%20AI%20Developer%20%E2%80%A2%20Fullstack%20SaaS%20Builder&descAlignY=56&descAlign=50&descSize=18" width="100%"/>
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=🤖+Data+Engineer+%26+AI+Developer;🧠+LLM+%7C+Machine+Learning+%7C+Computer+Vision;💻+React+%7C+Spring+Boot+%7C+Node.js+%7C+Python;🚀+Fullstack+SaaS+Builder+—+Casablanca+🇲🇦)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=6366F1&center=true&vCenter=true&width=750&lines=🤖+Data+Engineer+%26+AI+Developer;🧠+LLM+%7C+Machine+Learning+%7C+Computer+Vision;💻+React+%7C+Spring+Boot+%7C+Node.js+%7C+Python;⚗️+Prompt+Engineering+%7C+RAG+%7C+Agents+IA;🚀+Fullstack+SaaS+Builder+—+Casablanca+🇲🇦)](https://git.io/typing-svg)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/handy-christ-peme-tsoka-797329272)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:handytsoka89@gmail.com)
-[![Portfolio](https://img.shields.io/badge/CV%20%26%20Portfolio-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MonsterH-H/cv-handy-christ)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:handytsoka89@gmail.com)
+[![Portfolio CV](https://img.shields.io/badge/📄%20CV%20%26%20Portfolio-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MonsterH-H/cv-handy-christ)
+[![Prompt Lab](https://img.shields.io/badge/⚗️%20Prompt%20Lab-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MonsterH-H/prompt-engineering-lab)
+
+<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=MonsterH-H&color=6366f1&style=flat-square&label=Vues+profil)
 ![Repos](https://img.shields.io/badge/Repos-60+-10b981?style=flat-square&logo=github)
-![Followers](https://img.shields.io/github/followers/MonsterH-H?style=flat-square&color=f59e0b&label=Followers)
+![Stars](https://img.shields.io/github/stars/MonsterH-H?style=flat-square&color=f59e0b&label=Stars)
+![Followers](https://img.shields.io/github/followers/MonsterH-H?style=flat-square&color=ec4899&label=Followers)
 
 </div>
 
@@ -26,22 +30,31 @@
 class HandyChrist:
     def __init__(self):
         self.nom          = "Handy Christ TSOKA PEME"
-        self.role         = ["Data Engineer", "AI Developer", "Fullstack Dev"]
+        self.role         = ["Data Engineer", "AI Developer", "Fullstack Dev", "SaaS Builder"]
         self.formation    = "4ème année Sciences des Données — ESTEM Casablanca"
         self.localisation = "Casablanca, Maroc 🇲🇦"
-        self.disponible   = ["Stage", "Alternance", "Freelance"]
-        self.passion      = ["LLM / IA Générative", "ML Prédictif", "SaaS B2B", "Computer Vision"]
+        self.disponible   = ["Stage PFE", "Alternance", "Freelance"]
+        self.passion      = ["LLM / RAG / Agents IA", "ML & Computer Vision", "SaaS B2B Maroc"]
         self.langues      = {"Français": "C1 Avancé", "Anglais": "B2 Intermédiaire sup."}
+        self.contact      = "handytsoka89@gmail.com"
 
     def philosophie(self) -> str:
         return "Chaque ligne de code doit avoir un impact mesurable sur le réel."
+
+    def actuellement(self) -> list:
+        return [
+            "🔥 Construction de SaaS B2B pour le marché marocain",
+            "🤖 Exploration RAG + agents IA multi-étapes",
+            "📊 MLOps : déploiement de modèles en production",
+            "☁️  Préparation certification AWS / Azure Data",
+        ]
 ```
 
-> Étudiant ingénieur passionné par la construction de solutions **data-driven** qui résolvent de vrais problèmes business. Je conçois des SaaS, des pipelines ML, des agents IA et des applications Fullstack — de l'idée au déploiement en production.
+> Étudiant ingénieur passionné par la construction de solutions **data-driven** qui résolvent de vrais problèmes business. De l'exploration de données à la mise en production d'un SaaS complet — je couvre l'intégralité du pipeline : ML → API → Frontend → Deploy.
 
 ---
 
-## 🛠️ Stack technique
+## 🛠️ Stack Technique
 
 <div align="center">
 
@@ -50,10 +63,12 @@ class HandyChrist:
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude-Anthropic-10b981?style=for-the-badge)
 ![Ollama](https://img.shields.io/badge/Ollama-LLM-6366f1?style=for-the-badge)
 ![n8n](https://img.shields.io/badge/n8n-Agents-f59e0b?style=for-the-badge)
+![SHAP](https://img.shields.io/badge/SHAP-XAI-8b5cf6?style=for-the-badge)
 
 ### 💻 Développement Web & Mobile
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -63,8 +78,9 @@ class HandyChrist:
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-### 🗄️ Data · Bases de données · Cloud
+### 🗄️ Data · Bases de données · DevOps
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
@@ -72,6 +88,7 @@ class HandyChrist:
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 
 </div>
 
@@ -80,420 +97,449 @@ class HandyChrist:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MonsterH-H&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e1a&title_color=6366f1&icon_color=10b981&text_color=e2e8f0" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MonsterH-H&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e1a&title_color=6366f1&text_color=e2e8f0&langs_count=8" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=MonsterH-H&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=10b981&text_color=e2e8f0&count_private=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MonsterH-H&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=e2e8f0&langs_count=10" height="180"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MonsterH-H&theme=tokyonight&hide_border=true&background=0a0e1a&ring=6366f1&fire=f59e0b&currStreakLabel=10b981" width="60%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MonsterH-H&theme=tokyonight&hide_border=true&background=0d1117&ring=6366f1&fire=f59e0b&currStreakLabel=10b981&sideLabels=e2e8f0&dates=64748b" width="65%"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MonsterH-H&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6366f1&line=10b981&point=f59e0b" width="95%"/>
+</div>
+
+---
+
+## 🏆 Trophées GitHub
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MonsterH-H&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" width="100%"/>
 </div>
 
 ---
 
 ## 🚀 Projets — IA · Machine Learning · Computer Vision
 
+### 🏥 [OncoAI PRO](https://cancerdetesction.streamlit.app) — Plateforme IA de Diagnostic Oncologique
+> Plateforme clinique premium de prédiction du risque cancer — modèle ONNX, 23 paramètres cliniques, audit trail médical
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-FF4B4B?style=flat-square)
+![ONNX](https://img.shields.io/badge/ONNX-Runtime-005CED?style=flat-square)
+![Medical AI](https://img.shields.io/badge/Medical-AI-ec4899?style=flat-square)
+![Live](https://img.shields.io/badge/🟢-Production-10b981?style=flat-square)
+
+Le cancer est évitable lorsqu'il est détecté tôt. **OncoAI PRO** est une plateforme d'aide au diagnostic oncologique de grade professionnel : elle combine machine learning, visualisations interactives et journalisation clinique rigoureuse pour assister les professionnels de santé.
+
+**Architecture modulaire Enterprise Standard :**
+
+```mermaid
+graph TB
+    subgraph UI["🖥️ Interface Streamlit"]
+        LP[app.py\nLanding Page & Navigation]
+        AN[pages/analytics\nAnalytics Engine]
+        DX[pages/diagnosis\nAI Diagnosis]
+    end
+
+    subgraph Core["⚙️ Moteur IA — src/"]
+        IE[IA Engine\ncancer_risk_model.onnx]
+        DA[Data Analytics\n50k+ patients]
+        ST[Storage\nAudit CSV]
+    end
+
+    subgraph Data["🗄️ Données"]
+        RAW[data/raw\nDataset Excel]
+        HIST[prediction_history.csv\nJournal d'audit]
+        MODEL[models/\n.pkl → .onnx]
+    end
+
+    LP --> AN & DX
+    AN --> DA & RAW
+    DX --> IE --> MODEL
+    IE --> ST --> HIST
+
+    style UI fill:#1e1b4b,stroke:#6366f1,color:#e2e8f0
+    style Core fill:#064e3b,stroke:#10b981,color:#e2e8f0
+    style Data fill:#78350f,stroke:#f59e0b,color:#e2e8f0
+```
+
+**Fonctionnalités clés :**
+- 🎯 **Inférence clinique** sur **23 paramètres** (âge, symptômes, facteurs environnementaux)
+- 📊 **Analytics Engine** : statistiques réelles de cohorte + feature importance du modèle
+- 🔍 **Interprétabilité** : visualisation des variables les plus prédictives
+- 📋 **Audit Log** : chaque diagnostic sauvegardé automatiquement (traçabilité médicale)
+- 📤 **Export CSV** : filtrage et export des données cliniques
+- 🏗️ Structure modulaire `app.py` + `pages/` + `src/` + `models/` + `data/`
+
+> ⚠️ *Outil d'aide à la décision médicale — les résultats doivent être interprétés par un professionnel de santé qualifié.*
+
+🔗 **[cancerdetesction.streamlit.app](https://cancerdetesction.streamlit.app)** · 📁 **[github.com/MonsterH-H/Cancerdetesction](https://github.com/MonsterH-H/Cancerdetesction)**
+
+---
+
 ### 🔬 [CerviScan-IA](https://github.com/MonsterH-H/CerviScan-IA) — Détection Cancer du Col de l'Utérus
-> Système de deep learning pour la détection automatique du cancer cervical par analyse d'images médicales cytologiques
+> Deep learning CNN pour la classification automatique de cellules cervicales — aide au diagnostic précoce
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-Computer%20Vision-6366f1?style=flat-square)
-![Médical](https://img.shields.io/badge/Domaine-Médical-ec4899?style=flat-square)
+![CNN](https://img.shields.io/badge/CNN-Deep%20Learning-6366f1?style=flat-square)
+![Medical](https://img.shields.io/badge/Domaine-Médical-ec4899?style=flat-square)
 
-Le cancer du col de l'utérus est l'un des cancers les plus évitables lorsqu'il est détecté tôt. Ce projet applique des techniques de **Computer Vision et Deep Learning** pour classifier automatiquement les cellules cervicales à partir d'images médicales, dans le but d'assister les médecins dans le diagnostic précoce.
+**Pipeline ML complet :**
 
-**Ce que fait le projet :**
-- 🔬 Chargement et prétraitement d'images de frottis cervicaux
-- 🤖 Entraînement d'un modèle CNN pour classification (normale / anormale / cancer)
-- 📊 Évaluation sur métriques médicales : précision, rappel, AUC-ROC
-- 📈 Visualisation des zones d'attention du modèle (Grad-CAM)
+```mermaid
+flowchart LR
+    A[🔬 Images frottis\ncervicaux] --> B[Preprocessing\nNorm + Augmentation]
+    B --> C[Modèle CNN\nClassification 3 classes]
+    C --> D{Diagnostic}
+    D -->|Normale| E[✅ Saine]
+    D -->|Anormale| F[⚠️ Surveillance]
+    D -->|Cancer| G[🚨 Alerte]
+    C --> H[Grad-CAM\nZones attention]
 
----
+    style A fill:#1e1b4b,stroke:#6366f1,color:#e2e8f0
+    style C fill:#064e3b,stroke:#10b981,color:#e2e8f0
+    style G fill:#7f1d1d,stroke:#ef4444,color:#e2e8f0
+    style H fill:#4a1d4a,stroke:#8b5cf6,color:#e2e8f0
+```
 
-### 🔬 [Cancerdetesction](https://github.com/MonsterH-H/Cancerdetesction) — Détection Cancer par Machine Learning
-> Modèles ML pour la détection et classification de cancers sur données tabulaires et images
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter)
-
-Projet d'exploration et de modélisation pour la détection de cancers à partir de données cliniques. Couvre l'ensemble du pipeline ML, de la collecte à la prédiction.
-
-**Ce que fait le projet :**
-- 🧹 Nettoyage des données, gestion des valeurs manquantes, feature engineering
-- 🔍 Analyse exploratoire et visualisation des corrélations
-- 🤖 Comparaison d'algorithmes : Random Forest, SVM, XGBoost, Régression logistique
-- 📉 Optimisation par cross-validation et grid search
+- 🤖 Classification 3 classes : normale / anormale / cancer
+- 📊 Métriques médicales : précision, rappel, AUC-ROC, F1-score
+- 📈 Grad-CAM : visualisation des zones de décision du modèle
 
 ---
 
-### 👁️ [Reconnaissance_faciale](https://github.com/MonsterH-H/Reconnaissance_faciale) — Système de Reconnaissance Faciale
-> Système temps réel de détection et reconnaissance de visages en Python
+### 👁️ [Reconnaissance Faciale](https://github.com/MonsterH-H/Reconnaissance_faciale) — Système Biométrique Temps Réel
+> Détection et identification de visages en temps réel — Python + OpenCV + embeddings
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv)
-![Computer Vision](https://img.shields.io/badge/Computer-Vision-6366f1?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square)
+![Real-time](https://img.shields.io/badge/Temps%20Réel-Webcam-10b981?style=flat-square)
 
-Application de reconnaissance faciale utilisant des techniques classiques et deep learning pour détecter, extraire et identifier des visages en temps réel depuis une webcam ou des images.
-
-**Ce que fait le projet :**
-- 📸 Détection de visages en temps réel via OpenCV + Haar Cascades / MTCNN
-- 🧠 Extraction de features faciales et comparaison par embeddings
-- 🔐 Identification et vérification d'identité
-- 💾 Base de données de visages enregistrés pour la reconnaissance
+- 📸 Détection temps réel via OpenCV + Haar Cascades / MTCNN
+- 🧠 Embeddings faciaux pour identification robuste
+- 🔐 Cas d'usage : contrôle d'accès, authentification biométrique
 
 ---
 
-### 👁️ VisionO *(Private)* — Plateforme SaaS de Vision par Ordinateur
-> Solution complète backend + frontend pour l'analyse d'images et vidéos par IA en temps réel
+### 👁️ VisionO *(Private)* — SaaS Vision par Ordinateur
+> API Python + Frontend TypeScript · détection, classification, segmentation temps réel
 
-![Python](https://img.shields.io/badge/Python-Backend-3776AB?style=flat-square&logo=python)
-![TypeScript](https://img.shields.io/badge/TypeScript-Frontend-3178C6?style=flat-square&logo=typescript)
-![Computer Vision](https://img.shields.io/badge/Vision-IA%20Temps%20Réel-6366f1?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Backend-3776AB?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-Frontend-3178C6?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square)
 
-Projet en 2 repositories (`VisionO` backend Python + `VisionO-frontend` TypeScript) : une plateforme qui expose des modèles de vision par ordinateur via une API REST consommée par une interface web moderne.
-
-**Ce que fait le projet :**
-- 🔍 Analyse d'images et vidéos en temps réel via modèles IA
-- 🌐 API REST Python exposant les prédictions (détection, classification, segmentation)
-- 💻 Interface TypeScript pour visualiser les résultats et gérer les modèles
-- 🐳 Déploiement containerisé (Docker)
+- 🔍 Modèles IA : détection objets, classification, segmentation
+- 🌐 API REST Python → Interface TypeScript moderne · Docker
 
 ---
 
-### 🤖 [Agent_n8n](https://github.com/MonsterH-H/Agent_n8n) — AI Agent avec n8n
-> Workflows d'automatisation intelligente pilotés par des agents IA sur la plateforme n8n
+### 🤖 [Agent_n8n](https://github.com/MonsterH-H/Agent_n8n) — Agents IA Autonomes
+> Workflows d'automatisation avec agents LLM sur n8n (Claude, GPT, Mistral)
 
-![n8n](https://img.shields.io/badge/n8n-Workflow-f59e0b?style=flat-square)
-![LLM](https://img.shields.io/badge/LLM-Agent-6366f1?style=flat-square)
-![Automation](https://img.shields.io/badge/Automatisation-IA-10b981?style=flat-square)
+![n8n](https://img.shields.io/badge/n8n-Orchestration-f59e0b?style=flat-square)
+![ReAct](https://img.shields.io/badge/Pattern-ReAct%20Agent-6366f1?style=flat-square)
 
-n8n est une plateforme d'automatisation no-code/low-code. Ce projet implémente des **agents IA autonomes** capables de raisonner, prendre des décisions et exécuter des actions dans des workflows complexes.
+```mermaid
+sequenceDiagram
+    participant U as 👤 Trigger
+    participant A as 🤖 Agent n8n
+    participant L as 🧠 LLM
+    participant T as 🔧 Tools
 
-**Ce que fait le projet :**
-- 🔄 Agents IA avec mémoire et raisonnement multi-étapes (ReAct pattern)
-- 📧 Automatisation d'emails, relances, notifications intelligentes
-- 🔌 Intégration avec APIs externes (CRM, bases de données, services web)
-- 🧠 Utilisation de LLMs (GPT, Claude, Mistral) comme cerveau décisionnel
+    U->>A: Déclencheur (webhook / schedule)
+    A->>L: Thought: que faire ?
+    L->>A: Action: Tool X
+    A->>T: Exécution (API / BDD / Email)
+    T->>A: Observation
+    A->>L: Analyse résultat
+    L->>A: Final Answer
+    A->>U: ✅ Réponse & actions exécutées
+```
 
 ---
 
-### ⚗️ [Prompt Engineering Lab](https://github.com/MonsterH-H/prompt-engineering-lab) — Comparaison Techniques LLM
-> Application interactive pour comparer et visualiser l'impact de 6 techniques de prompt engineering
+### ⚗️ [Prompt Engineering Lab](https://github.com/MonsterH-H/prompt-engineering-lab) — Comparateur LLM Interactif
+> Visualiser en temps réel l'impact de 6 techniques de prompt engineering via l'API Claude
 
 ![React](https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react)
 ![Claude API](https://img.shields.io/badge/Claude-API-6366f1?style=flat-square)
-![Vite](https://img.shields.io/badge/Vite-f59e0b?style=flat-square&logo=vite)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)
+![Vite](https://img.shields.io/badge/Vite-6-f59e0b?style=flat-square)
 
-Les techniques de prompt engineering changent radicalement la qualité des réponses d'un LLM. Ce lab permet de le **visualiser en temps réel** : pour une même tâche, compare un prompt basique avec un prompt engineered et mesure la différence de tokens et de qualité.
-
-**Techniques implémentées :**
-- ⚡ **Zero-Shot** — Prompt direct sans exemples (baseline)
-- 📚 **Few-Shot** — Guider le modèle avec 2-3 exemples concrets
-- 🧠 **Chain-of-Thought** — Forcer un raisonnement pas à pas
-- 🎭 **Role Prompting** — Injecter un rôle expert dans le system prompt
-- 📋 **Structured Output** — Forcer une réponse JSON stricte
-- 🔄 **ReAct** — Thought → Action → Observation (pattern agent)
+| Technique | Principe | Impact |
+|-----------|----------|--------|
+| ⚡ Zero-Shot | Prompt direct sans exemple | Baseline référence |
+| 📚 Few-Shot | 2-3 exemples fournis | Format cohérent |
+| 🧠 Chain-of-Thought | Raisonnement explicite étape par étape | +qualité raisonnement |
+| 🎭 Role Prompting | Rôle expert injecté dans le system | Spécialisation réponse |
+| 📋 Structured Output | JSON strict forcé | Automation, parsing |
+| 🔄 ReAct | Thought→Action→Observation | Agents, décision |
 
 🔗 **[github.com/MonsterH-H/prompt-engineering-lab](https://github.com/MonsterH-H/prompt-engineering-lab)**
 
 ---
 
-### 🛢️ [fleetopti_ml](https://github.com/MonsterH-H/fleetopti_ml) — ML Prédictif pour Gestion de Flotte
-> Modèles de machine learning pour prédire les pannes et optimiser les coûts de maintenance
+### 🛢️ [fleetopti_ml](https://github.com/MonsterH-H/fleetopti_ml) — ML Prédictif Flotte Véhicules
+> Notebooks entraînement + export ONNX · **90% précision pannes** · **R² > 0.95** CO₂
 
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square)
 ![ONNX](https://img.shields.io/badge/ONNX-Export-005CED?style=flat-square)
-
-Le cœur ML du projet FleetOpti AI. Ce repository contient tous les notebooks d'exploration, d'entraînement et d'évaluation des modèles de prédiction, ainsi que l'export ONNX pour déploiement en production.
-
-**Ce que fait le projet :**
-- 🔮 Prédiction des pannes véhicules à **90% de précision**
-- 🌿 Modèle émissions CO₂ avec **R² > 0.95**
-- 💰 Impact business : **-25% sur les coûts de maintenance**
-- 📦 Export ONNX pour intégration dans le backend Spring Boot
+![Impact](https://img.shields.io/badge/-25%25-coûts%20maintenance-10b981?style=flat-square)
 
 ---
 
-### 🧪 [Business-Inteligence](https://github.com/MonsterH-H/Business-Inteligence) — Analyse Performance Commerciale
-> Rapport Power BI complet pour l'analyse de données et la prise de décision stratégique
+### 🧪 [Business Intelligence](https://github.com/MonsterH-H/Business-Inteligence) — Dashboard Power BI
+> ETL automatisé + modèle en étoile + 7 KPIs DAX pour analyse performance commerciale
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Formules-6366f1?style=flat-square)
-![SQL](https://img.shields.io/badge/SQL-ETL-4169E1?style=flat-square)
+```mermaid
+graph LR
+    subgraph ETL["⚙️ Pipeline ETL (50k+ lignes)"]
+        S[Sources\nExcel / CSV / SQL] --> T[Power Query\nTransformation] --> L[Modèle étoile]
+    end
+    subgraph MODEL["📊 Modèle Dimensionnel"]
+        F[Fact_Ventes] --- D1[Dim_Produit] & D2[Dim_Client] & D3[Dim_Temps] & D4[Dim_Région]
+    end
+    L --> F
+    F --> K[7 KPIs DAX\nCroissance · Panier moyen · Région...]
 
-Projet complet de Business Intelligence : pipeline ETL, modélisation dimensionnelle (schéma en étoile), création de KPIs complexes et dashboard interactif Power BI pour une direction commerciale.
-
-**Ce que fait le projet :**
-- ⚙️ Pipeline ETL automatisé traitant **50 000+ lignes** de données brutes
-- 🏗️ Modélisation en étoile (faits + dimensions)
-- 📊 **7 KPIs complexes en DAX** : taux de croissance, panier moyen, performance par région...
-- 📈 Dashboard interactif facilitant la prise de décision stratégique
+    style ETL fill:#1e1b4b,stroke:#6366f1,color:#e2e8f0
+    style MODEL fill:#064e3b,stroke:#10b981,color:#e2e8f0
+    style K fill:#78350f,stroke:#f59e0b,color:#e2e8f0
+```
 
 ---
 
 ### 🌿 [PétolaData](https://petoladata.streamlit.app) — Prédiction Production Pétrolière
-> Modélisation prédictive avec analyse d'explicabilité SHAP — déployé sur Streamlit
+> XAI avec SHAP · **82% précision** · 5 variables clés identifiées · déployé Streamlit
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![SHAP](https://img.shields.io/badge/SHAP-Explicabilité-8b5cf6?style=flat-square)
-![Streamlit](https://img.shields.io/badge/Streamlit-Déployé-FF4B4B?style=flat-square)
-
-Modèle prédictif de la production pétrolière utilisant des techniques de machine learning explicable (XAI). L'objectif est non seulement de prédire, mais de **comprendre** quelles variables impactent le plus la production.
-
-**Ce que fait le projet :**
-- 🎯 **82% de précision** sur la prédiction de production
-- 🔍 Identification des **5 variables clés** grâce aux SHAP values
-- 📊 Visualisations interactives Streamlit (SHAP plots, feature importance)
-- 🌐 Application déployée et accessible publiquement
-
+![SHAP](https://img.shields.io/badge/SHAP-XAI-8b5cf6?style=flat-square)
+![Live](https://img.shields.io/badge/🟢-petoladata.streamlit.app-FF4B4B?style=flat-square)
 🔗 **[petoladata.streamlit.app](https://petoladata.streamlit.app)**
 
 ---
 
 ## 💼 Projets — SaaS & Applications Business
 
-### 🏦 SmartCollect AI *(Private)* — Plateforme de Recouvrement Intelligent
-> SaaS Fullstack de gestion du poste client avec scoring IA prédictif et relances automatisées
+### 🏦 SmartCollect AI *(Private)* — Recouvrement Intelligent B2B
+> SaaS Fullstack · Scoring IA prédictif · Multi-tenant RLS · 15+ Edge Functions
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript)
-![Supabase](https://img.shields.io/badge/Supabase-RLS-3ECF8E?style=flat-square&logo=supabase)
-![Edge Functions](https://img.shields.io/badge/Edge%20Functions-15+-6366f1?style=flat-square)
-![IA Prédictif](https://img.shields.io/badge/IA-Scoring%20Prédictif-f59e0b?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square)
+![Supabase](https://img.shields.io/badge/Supabase-RLS-3ECF8E?style=flat-square)
+![Live](https://img.shields.io/badge/🟢-smartcollect.hesyd.com-10b981?style=flat-square)
 
-Le recouvrement de créances est un défi majeur pour les PME. SmartCollect automatise et optimise ce processus grâce à l'IA : scoring de risque, relances personnalisées, rapprochement bancaire, tout dans une interface intuitive.
-
-**Ce que fait le projet :**
-- 🔐 Architecture **multi-tenant sécurisée** avec Row Level Security (RLS) Supabase
-- 🤖 **Scoring IA prédictif** : probabilité de recouvrement par créance
-- 📧 Relances automatisées **email & SMS** selon le profil de risque
-- 🏦 Rapprochement bancaire automatisé
-- 📊 Dashboard temps réel : KPIs, aging balance, taux de recouvrement
-- ⚡ **15+ Edge Functions** Supabase en production
+```mermaid
+graph TB
+    subgraph FE["💻 Dashboard React"]
+        D[KPIs temps réel] & C[Gestion créances] & R[Rapprochement bancaire]
+    end
+    subgraph EF["⚡ Edge Functions Supabase (15+)"]
+        EF1[Scoring IA] & EF2[Email/SMS auto] & EF3[Rapprochement] & EF4[Alertes]
+    end
+    subgraph DB["🗄️ PostgreSQL + RLS Multi-tenant"]
+        T1[Tenant A 🔐] & T2[Tenant B 🔐] & T3[Tenant C 🔐]
+    end
+    FE --> EF --> DB
+    style FE fill:#1e1b4b,stroke:#6366f1,color:#e2e8f0
+    style EF fill:#064e3b,stroke:#10b981,color:#e2e8f0
+    style DB fill:#78350f,stroke:#f59e0b,color:#e2e8f0
+```
 
 🔗 **[smartcollect.hesyd.com](https://smartcollect.hesyd.com)**
 
 ---
 
-### 🚛 FleetOpti AI *(Private)* — SaaS de Gestion Prédictive de Flotte
-> Plateforme SaaS intelligente pour optimiser les opérations logistiques des PME marocaines
+### 🏗️ [BuildingSense](https://buildingsense.vercel.app) — SaaS BTP Gestion Chantiers
+> Plateforme tout-en-un pour piloter projets BTP, équipes et rentabilité · **500+ entreprises**
 
-![Java](https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat-square&logo=springboot)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react)
+![Vercel](https://img.shields.io/badge/Vercel-Live-000000?style=flat-square)
+![500+](https://img.shields.io/badge/500%2B-Entreprises-6366f1?style=flat-square)
+![10K](https://img.shields.io/badge/10K%2B-Chantiers-10b981?style=flat-square)
+
+- 📊 Tableau de bord temps réel : **10K+ chantiers** · **99.9% uptime**
+- 👥 Gestion d'équipes + planification intelligente IA
+- 📁 Documents centralisés · **+25% rentabilité** clients
+- 💰 Plans : Starter 49€/mois · Pro 149€/mois · Enterprise sur mesure
+
+🔗 **[buildingsense.vercel.app](https://buildingsense.vercel.app)**
+
+---
+
+### 💰 financial-insight-hub *(Private)* — Gestion Comptable & Finance
+> React + TypeScript + Node.js + PostgreSQL · dashboards financiers interactifs
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square)
+![Recharts](https://img.shields.io/badge/Recharts-Graphiques-8b5cf6?style=flat-square)
+
+```mermaid
+graph LR
+    subgraph FE["💻 Frontend React + TypeScript"]
+        UI[shadcn/ui] & CH[Recharts] & TW[Tailwind CSS]
+    end
+    subgraph BE["⚙️ Backend Node.js + Express"]
+        API[REST API] & JWT[Auth JWT] & CORS[CORS]
+    end
+    subgraph DB["🗄️ PostgreSQL"]
+        ACC[Comptes] & TXN[Transactions] & REP[Rapports]
+    end
+    FE <-->|HTTP REST| BE <-->|SQL| DB
+    style FE fill:#1e1b4b,stroke:#6366f1,color:#e2e8f0
+    style BE fill:#064e3b,stroke:#10b981,color:#e2e8f0
+    style DB fill:#78350f,stroke:#f59e0b,color:#e2e8f0
+```
+
+- 📒 Journal comptable, grand livre, balance des comptes
+- 📊 Dashboards Recharts interactifs : trésorerie, P&L, bilans
+- 🔄 Rapprochement bancaire automatisé · Export PDF/Excel
+- 🌗 Thème clair/sombre · Responsive · Auth JWT sécurisée
+
+---
+
+### 🚛 FleetOpti AI *(Private)* — SaaS Logistique Prédictif pour PME
+> Spring Boot + TypeScript + ONNX + IoT · **90% précision** · **-25% coûts**
+
+![Java](https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Frontend-3178C6?style=flat-square)
-![ONNX](https://img.shields.io/badge/ONNX-ML%20Runtime-005CED?style=flat-square)
-![IoT](https://img.shields.io/badge/IoT-Monitoring-10b981?style=flat-square)
-
-Projet en 3 repositories (`Fleetopti_ai` backend Java, `fleetopti-frontend` TypeScript, `fleetopti_ml` notebooks) : un SaaS complet qui transforme la gestion de flotte traditionnelle en plateforme logistique prédictive.
-
-**Ce que fait le projet :**
-- 🔮 Prédiction des pannes à **90%** grâce aux modèles ONNX
-- 🌿 Suivi et prédiction des émissions CO₂ (**R² > 0.95**)
-- 💰 Réduction des coûts de maintenance de **25%**
-- 📡 Dashboard React temps réel connecté aux capteurs IoT via Spring Boot
-- 🏗️ Architecture microservices Java robuste et scalable
+![ONNX](https://img.shields.io/badge/ONNX-ML-005CED?style=flat-square)
 
 ---
 
-### 🏛️ HESYD *(Private)* — Plateforme Digitale pour PME Marocaines
-> Écosystème complet d'expertise digitale pour accélérer les PME via l'automatisation IA et la data
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript)
-![Automatisation](https://img.shields.io/badge/IA-Automatisation-6366f1?style=flat-square)
-![PME](https://img.shields.io/badge/Marché-PME%20Maroc-10b981?style=flat-square)
-
-HESYD est une plateforme d'expertise digitale dédiée à l'accélération des PME marocaines via l'automatisation intelligente et l'exploitation des données. Elle intègre un écosystème complet pour digitaliser les processus métier.
-
-**Ce que fait le projet :**
-- 🤖 Automatisation intelligente des processus métier (facturation, relances, reporting)
-- 📊 Exploitation des données internes pour insights stratégiques
-- 🔌 Intégration avec les outils existants des PME
-- 🌍 Conçu spécifiquement pour le contexte business marocain
+### 🏛️ HESYD *(Private)* — Écosystème Digital PME Maroc
+> Automatisation IA + data pour accélérer les PME marocaines · TypeScript
 
 ---
 
-### ⚖️ DECIDEX *(Public + Private)* — Plateforme de Décision
-> Système d'aide à la décision avec backend TypeScript et frontend TypeScript
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript)
-![Backend](https://img.shields.io/badge/Backend-decidex--backend-6366f1?style=flat-square)
-![Frontend](https://img.shields.io/badge/Frontend-decidex--frontend-10b981?style=flat-square)
-
-Projet en 3 repositories (`DECIDEX` public, `decidex-backend` et `decidex-frontend` privés) : une plateforme structurée pour faciliter et documenter la prise de décision dans les organisations.
-
-**Ce que fait le projet :**
-- 📋 Structuration et documentation des processus de décision
-- 🔄 Workflow de validation et d'approbation multi-niveaux
-- 📊 Historique et traçabilité des décisions prises
-- 🔐 Authentification sécurisée et gestion des rôles
+### ⚖️ DECIDEX *(Public + Private)* — Aide à la Décision
+> Workflow validation multi-niveaux · historique & traçabilité · TypeScript Full Stack
 
 ---
 
-### 💰 financial-insight-hub *(Private)* — Application de Gestion Comptable
-> Application de gestion de comptabilité moderne avec tableaux de bord financiers
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript)
-![Finance](https://img.shields.io/badge/Domaine-Comptabilité-f59e0b?style=flat-square)
-
-Application fullstack de gestion comptable permettant aux entreprises de suivre leurs finances, générer des rapports et analyser leurs performances financières en temps réel.
-
-**Ce que fait le projet :**
-- 📒 Gestion des écritures comptables (journal, grand livre, balance)
-- 📊 Tableaux de bord financiers : trésorerie, P&L, bilans
-- 🔄 Rapprochement bancaire automatisé
-- 📈 Rapports financiers exportables (PDF, Excel)
+### 🤝 TenderAI *(Private)* — IA pour Appels d'Offres
+> LLM pour analyser AO (PDF), extraire critères, générer réponses compétitives
 
 ---
 
-### 🤝 TenderAI *(Private)* — Plateforme IA pour Appels d'Offres
-> Solution IA pour automatiser l'analyse et la réponse aux appels d'offres
-
-![IA](https://img.shields.io/badge/LLM-Appels%20d'offres-6366f1?style=flat-square)
-
-TenderAI utilise des LLMs pour analyser automatiquement les dossiers d'appels d'offres, extraire les exigences clés et aider les entreprises à rédiger des réponses compétitives.
-
-**Ce que fait le projet :**
-- 📄 Analyse automatique de documents d'appels d'offres (PDF, Word)
-- 🔍 Extraction des critères, délais, exigences techniques
-- ✍️ Génération assistée de réponses personnalisées via LLM
-- 📊 Scoring de compatibilité entre profil entreprise et AO
+### 📦 LOGI-SHARE *(Private)* — Logistique Collaborative Mobile
+> App mobile LLM · mutualisation trajets/entrepôts PME · documents auto-générés
 
 ---
 
-### 📦 LOGI-SHARE *(Private)* — Application Mobile Collaborative LLM
-> App mobile pour mutualiser les trajets et entrepôts entre PME via un LLM
-
-![LLM](https://img.shields.io/badge/LLM-Collaboratif-6366f1?style=flat-square)
-![Mobile](https://img.shields.io/badge/Mobile-Application-10b981?style=flat-square)
-![Logistique](https://img.shields.io/badge/Domaine-Logistique-f59e0b?style=flat-square)
-
-Application mobile innovante qui utilise un LLM pour optimiser la logistique collaborative entre PME : mutualisation des camions, partage d'entrepôts, et génération automatique de documents de transport.
-
-**Ce que fait le projet :**
-- 🚚 Optimisation des trajets entre PME locales (réduction des camions à vide)
-- 🏭 Mutualisation des espaces de stockage et entrepôts
-- 🤖 LLM pour générer automatiquement les documents logistiques
-- 📱 Interface mobile intuitive pour les transporteurs et expéditeurs
+### 💸 [RELANCE](https://github.com/MonsterH-H/RELANCE) — Automatisation Recouvrement TPE/PME
+> Relances progressives auto : rappel → mise en demeure → précontentieux
 
 ---
 
-### 💸 [RELANCE](https://github.com/MonsterH-H/RELANCE) — Automatisation du Recouvrement Amiable
-> Outil d'automatisation des relances de factures impayées pour TPE et PME
+## 🎓 Projets Académiques & Gestion
 
-![Automatisation](https://img.shields.io/badge/Automatisation-Recouvrement-10b981?style=flat-square)
-![TPE/PME](https://img.shields.io/badge/Cible-TPE%20%26%20PME-6366f1?style=flat-square)
+### 🏫 SchoolGest — ERP Scolaire Java
+> Spring Boot + Hibernate + Frontend HTML · gestion complète établissement scolaire
 
-Les impayés sont le premier facteur de défaillance des TPE/PME. RELANCE automatise le processus de relance amiable : détection des factures en retard, envoi de relances progressives (email, SMS, courrier) selon une stratégie définie.
-
-**Ce que fait le projet :**
-- 📋 Import des factures et détection automatique des retards
-- 📧 Relances progressives : rappel → mise en demeure → précontentieux
-- 📊 Tableau de bord : encours, taux de recouvrement, aging balance
-- 📝 Génération automatique de courriers de relance personnalisés
-
----
-
-## 🎓 Projets — Académiques & Gestion
-
-### 🏫 SchoolGest — ERP Complet de Gestion Scolaire
-> Système de gestion scolaire complet : backend Java Spring Boot + frontend HTML
-
-![Java](https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat-square&logo=springboot)
-![HTML](https://img.shields.io/badge/HTML-Frontend-E34F26?style=flat-square&logo=html5)
-![ERP](https://img.shields.io/badge/Type-ERP%20Scolaire-6366f1?style=flat-square)
-
-Projet académique en 2 repositories (`SchoolGest-backend` Java + `SchoolGest-frontend` HTML) : un ERP complet pour digitaliser la gestion d'un établissement scolaire.
-
-**Ce que fait le projet :**
-- 👨‍🎓 Gestion des étudiants : inscriptions, profils, historique
-- 📚 Gestion des cours, emplois du temps et salles
-- 📝 Saisie et consultation des notes, bulletins, moyennes
-- 👩‍🏫 Gestion des enseignants et du personnel administratif
-- 🏗️ Architecture MVC Java avec Hibernate ORM
-
----
+```mermaid
+erDiagram
+    ETUDIANT { int id PK; string nom; date inscription }
+    COURS { int id PK; string matiere; int heures }
+    ENSEIGNANT { int id PK; string nom; string specialite }
+    NOTE { int id PK; float valeur; string semestre }
+    ETUDIANT ||--o{ NOTE : obtient
+    COURS ||--o{ NOTE : concerne
+    ENSEIGNANT ||--o{ COURS : enseigne
+```
 
 ### 🎓 [formationsGest](https://formationsgest.vercel.app) — ERP Centre de Formation
-> Digitalisation du cycle administratif pour 50+ étudiants
-
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=nodedotjs)
-![JavaScript](https://img.shields.io/badge/JavaScript-Backend-F7DF1E?style=flat-square)
-![React](https://img.shields.io/badge/React-Frontend-20232A?style=flat-square&logo=react)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb)
-
-Backend Express.js + frontend React pour gérer l'ensemble du cycle administratif d'un centre de formation : inscriptions, paiements, planning, attestations.
-
-**Impact mesuré :**
-- ⚡ **-60%** sur le temps de traitement des inscriptions
-- 👥 Gestion fluide de **50+ étudiants** simultanément
-- 🔄 Automatisation complète : inscription → paiement → attestation
-
+> Node.js + React + MongoDB · **-60% temps traitement** · 50+ étudiants
 🔗 **[formationsgest.vercel.app](https://formationsgest.vercel.app)**
 
 ---
 
-### 🌐 [handy-portfolio](https://github.com/MonsterH-H/handy-portfolio) *(Private)* — Portfolio Personnel Animé
-> Portfolio moderne, animé et complet pour ingénieur Fullstack & Data Science
+## 💼 Expériences Professionnelles
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript)
-![Animations](https://img.shields.io/badge/Design-Animé%20%26%20Moderne-6366f1?style=flat-square)
-
-Portfolio personnel développé en TypeScript avec animations avancées, design inspiré de l'esthétique moderne des développeurs. Inclut sections compétences, projets, services et formulaire de contact.
-
----
-
-## 💼 Expériences professionnelles
-
-| Période | Poste | Entreprise | Technologies | Impact |
-|---------|-------|------------|-------------|--------|
-| Nov 2025 → Jan 2026 | **Développeur Full-Stack** | IP Technology, Casablanca | React 19, Express.js, MySQL, JWT/RBAC, LLM API | UX améliorée, sécurité renforcée |
-| Juil → Sept 2025 | **Stagiaire Développeur Full-Stack** | Business IT Solutions (BITS) | Spring Boot, Angular, PostgreSQL, Agile | E-Vignette Maroc déployée |
+| Période | 💼 Poste | 🏢 Entreprise | ⚙️ Technologies | 📈 Impact |
+|---------|---------|-------------|----------------|---------|
+| Nov 2025 → Jan 2026 | **Développeur Full-Stack** | IP Technology, Casa | React 19, Express.js, MySQL, Drizzle, JWT/RBAC, LLM API, S3 | UX améliorée · Sécurité renforcée |
+| Juil → Sept 2025 | **Stagiaire Dev Full-Stack** | Business IT Solutions (BITS) | Spring Boot, Angular, PostgreSQL, Agile/Scrum | E-Vignette Maroc en production |
 | Juil → Sept 2024 | **Data Analyst Marketing** | YELTECH, Casablanca | Power BI, Odoo, Python, Web Scraping | **+20% conversion · -15% coûts** |
 
 ---
 
-## 📈 Impact chiffré
+## 📈 Impact Chiffré
 
 <div align="center">
 
-| Projet | Métrique | Valeur |
-|--------|----------|--------|
+| 🚀 Projet | 📊 Métrique | 🎯 Résultat |
+|-----------|------------|-----------|
 | FleetOpti AI | Précision prédiction pannes | **90%** |
 | FleetOpti AI | Réduction coûts maintenance | **-25%** |
 | FleetOpti AI | Score R² modèle CO₂ | **> 0.95** |
-| PétolaData | Précision prédiction production | **82%** |
-| SmartCollect AI | Edge Functions en production | **15+** |
+| OncoAI PRO | Paramètres cliniques analysés | **23** |
+| PétolaData | Précision prédiction | **82%** |
+| SmartCollect AI | Edge Functions production | **15+** |
+| BuildingSense | Entreprises clientes | **500+** |
+| BuildingSense | Gain rentabilité client | **+25%** |
 | FormationGest | Réduction temps traitement | **-60%** |
-| BI Analyse commerciale | Lignes ETL traitées | **50 000+** |
-| YELTECH (stage) | Taux de conversion campagne | **+20%** |
-| YELTECH (stage) | Réduction coûts marketing | **-15%** |
+| Business Intelligence | Lignes ETL traitées | **50 000+** |
+| YELTECH | Taux de conversion | **+20%** |
+| YELTECH | Réduction coûts marketing | **-15%** |
 
 </div>
 
 ---
 
-## 🌍 Langues
+## 🌐 Applications Déployées en Production
 
-| Langue | Niveau | Utilisation |
-|--------|--------|-------------|
-| 🇫🇷 **Français** | C1 — Avancé | Travail quotidien, communication client, documentation |
-| 🇬🇧 **Anglais** | B2 — Intermédiaire supérieur | Documentation technique, APIs, articles de recherche |
+<div align="center">
+
+| 🔗 Application | 🏷️ Domaine | ⚙️ Stack | 🟢 Statut |
+|---------------|----------|---------|---------|
+| [smartcollect.hesyd.com](https://smartcollect.hesyd.com) | FinTech · Recouvrement | TypeScript + Supabase | 🟢 Live |
+| [cancerdetesction.streamlit.app](https://cancerdetesction.streamlit.app) | Medical AI | Python + ONNX + Streamlit | 🟢 Live |
+| [buildingsense.vercel.app](https://buildingsense.vercel.app) | BTP · SaaS | TypeScript + React + Vercel | 🟢 Live |
+| [petoladata.streamlit.app](https://petoladata.streamlit.app) | Data Science · XAI | Python + SHAP + Streamlit | 🟢 Live |
+| [formationsgest.vercel.app](https://formationsgest.vercel.app) | ERP · Formation | Node.js + React + MongoDB | 🟢 Live |
+
+</div>
 
 ---
 
-## 🎯 Objectifs actuels
+## 🗺️ Roadmap 2026
 
-- 🔥 Approfondir **LLM engineering** (RAG, fine-tuning, agents multi-étapes)
-- 🏗️ Maîtriser **MLOps** (MLflow, déploiement modèles en production)
-- ☁️ Certification **AWS / Azure Data**
-- 🚀 Développer et lancer **2 SaaS B2B** sur le marché marocain
+```mermaid
+timeline
+    title Roadmap Handy Christ — 2026
+    section T1 2026
+        Prompt Engineering Lab : Déployé ✅
+        OncoAI PRO : Déployé ✅
+        GitHub Profile Premium : Ce README ✅
+    section T2 2026
+        RAG Pipeline : LangChain + Chroma + Claude
+        MLflow : Tracking expériences ML
+        FastAPI : Exposition modèles ML en prod
+    section T3 2026
+        AWS / Azure Data : Certification cloud
+        MLOps CI/CD : Pipeline modèles automatisé
+        SaaS B2B #1 : Lancement marché marocain
+    section T4 2026
+        LLM Fine-tuning : Modèle domaine spécifique
+        SaaS B2B #2 : Lancement
+        Open Source : Contribution projet Data/IA
+```
+
+---
+
+## 🌍 Langues
+
+| Langue | Niveau | Contexte |
+|--------|--------|----------|
+| 🇫🇷 **Français** | C1 — Avancé | Travail quotidien, documentation, communication client |
+| 🇬🇧 **Anglais** | B2 — Intermédiaire supérieur | Documentation technique, APIs, articles de recherche |
 
 ---
 
 ## 🎵 Centres d'intérêt
 
-🎵 **Musique** · ⚽ **Football** · 📚 **Lecture** · 🤖 **Veille IA & Tech**
+🎵 **Musique** · ⚽ **Football** · 📚 **Lecture** · 🤖 **Veille IA & Tech** · 🚀 **Entrepreneuriat**
 
 ---
 
@@ -505,8 +551,10 @@ Portfolio personnel développé en TypeScript avec animations avancées, design 
 
 [![LinkedIn](https://img.shields.io/badge/Me%20contacter%20sur%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/handy-christ-peme-tsoka-797329272)
 [![Email](https://img.shields.io/badge/handytsoka89@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:handytsoka89@gmail.com)
-[![CV](https://img.shields.io/badge/📄%20Voir%20mon%20CV%20complet-6366f1?style=for-the-badge)](https://github.com/MonsterH-H/cv-handy-christ)
+[![CV Complet](https://img.shields.io/badge/📄%20CV%20Complet-6366f1?style=for-the-badge&logo=github)](https://github.com/MonsterH-H/cv-handy-christ)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
 
 </div>
