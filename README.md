@@ -25,7 +25,7 @@
 ```python
 class HandyChrist:
     nom          = "Handy Christ TSOKA PEME"
-    role         = ["Data Engineer", "AI Developer", "Fullstack Dev"]
+    role         = ["Data Science", "AI Developer", "Fullstack Dev"]
     formation    = "4ème année Sciences des Données — ESTEM Casablanca 🇲🇦"
     disponible   = ["Stage PFE", "Alternance", "Freelance"]
     passion      = ["LLM / RAG / Agents IA", "ML & Computer Vision", "SaaS B2B"]
