@@ -1,82 +1,40 @@
-# Handy Christ TSOKA PEME
+<div align="center">
 
-**Ingénieur Data · IA & Software Engineering** — Casablanca, Maroc
+<img src="assets/hero-banner.svg" alt="Handy Christ TSOKA PEME — Ingénieur Data · IA · Full Stack" width="100%"/>
 
-> Étudiant ingénieur en 5ᵉ année (Sciences des Données). Je conçois et réalise des systèmes complets :
+<br/>
+
+<a href="https://www.linkedin.com/in/handy-christ-peme-tsoka-797329272"><img src="https://img.shields.io/badge/LinkedIn-Handy%20Christ%20PEME-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:handytsoka89@gmail.com"><img src="https://img.shields.io/badge/Email-handytsoka89@gmail.com-2DD4BF?style=flat-square&logo=gmail&logoColor=0B1424" alt="Email"/></a>
+<a href="https://www.hesyd.com"><img src="https://img.shields.io/badge/Site-hesyd.com-3B82F6?style=flat-square&logo=google-chrome&logoColor=white" alt="Site HESYD"/></a>
+<a href="https://github.com/MonsterH-H?tab=repositories"><img src="https://img.shields.io/badge/GitHub-101%20repos-0D1728?style=flat-square&logo=github&logoColor=white" alt="GitHub repos"/></a>
+
+</div>
+
+> Étudiant ingénieur en 5ᵉ année (Sciences des Données), Casablanca. Je conçois et réalise des systèmes complets :
 > pipelines de données et modèles ML, plateformes SaaS multi-tenant, backends Spring Boot,
-> applications IA en production. Chaque projet ci-dessous a été audité dans son code réel —
+> applications IA en production. **Chaque projet de ce portfolio a été audité dans son code réel** —
 > les indicateurs avancés sont vérifiables dans les dépôts, les notebooks ou la documentation.
 
-[LinkedIn](https://www.linkedin.com/in/handy-christ-peme-tsoka-797329272) · [Email](mailto:handytsoka89@gmail.com) · [Site HESYD](https://www.hesyd.com) · [GitHub](https://github.com/MonsterH-H?tab=repositories)
+<div align="center">
+<img src="assets/kpi-strip.svg" alt="Indicateurs clés vérifiés : 1,6M lignes de données, 63 routes API, 117 endpoints, 196 tests, 36 500 LOC, 5 modèles NVIDIA NIM" width="100%"/>
+</div>
 
----
-
-## Portfolio Overview
-
-| Indicateur | Valeur |
-|---|---|
-| **Projets mis en avant** (sélection exigeante) | **20** |
-| IA & Applications Intelligentes | 4 |
-| Data & Analytics | 2 |
-| Machine Learning | 3 |
-| Backend & Systems Engineering | 5 |
-| Full Stack & Produits | 6 |
-| Applications **live vérifiées** (HTTP 200) | 3 + 2 apps déployées à accès protégé |
-| Projets avec README documentation complète | 20 / 20 |
-| Projets privés (code confidentiel, présentation autorisée) | 9 |
-| Repositories audités pour cette sélection | ~100 |
-
-**Légende des statuts** — `PROD` déployé/production · `COMPLET` terminé, testé · `DEV` développement actif · `PROTO` prototype/recherche.
+**Légende des statuts** — `PROD` déployé/production · `COMPLET` terminé, testé · `DEV` développement actif · `PROTO` prototype/recherche · `RECHERCHE` travaux d'implémentation académique.
 **Légende de visibilité** — `PUBLIC` code source consultable · `PRIVÉ` code confidentiel, fiche de présentation seulement (aucun lien exposé).
 **Échelle de maturité interne** — L1 concept · L2 prototype · L3 fonctionnel · L4 complet · L5 déployé.
 
-```mermaid
-graph LR
-    subgraph Data[" "]
-        EDIA["EDIA · Decision<br/>Intelligence Backend"]
-        BI["Business Intelligence<br/>Power BI / DAX"]
-    end
-    subgraph ML[" "]
-        ONCO["OncoAI PRO"]
-        PETOLA["Petola · XAI"]
-        MVTec["MVTec · PatchCore"]
-    end
-    subgraph AI[" "]
-        HESYD["HESYD-ONE · Agent documentaire"]
-        AIDIP["AIDIP · BI conversationnelle"]
-        OMNIAD["OmniAd AI · Génération multilingue"]
-        PROMPT["Prompt Engineering Lab"]
-    end
-    subgraph Backend[" "]
-        SCHOOL["SchoolGest · ERP"]
-        FLEET["FleetOpti · + ONNX runtime"]
-        DISC["ServiceDiscovery · Spring Cloud"]
-        EVIG["E-Vignette · stage BITS"]
-        ALPHA["AlphaEngine · Trading réel"]
-    end
-    subgraph FullStack[" "]
-        VALIFY["Valify · SaaS réservation"]
-        POSTULA["Postula · SaaS dual"]
-        AMDRH["Académie AMDRH · e-learning"]
-        PHARMA["Pharma Manager"]
-        PFLOW["Pharmaflow · e-santé"]
-        BSENSE["BuildingSense · BTP"]
-    end
-    Data --> AI
-    ML --> AI
-    AI --> Backend
-    Backend --> FullStack
-```
+**Navigation** — [Featured](#featured--5-réalisations-majeures) · [A Data](#a--data--analytics) · [B ML](#b--machine-learning) · [C AI](#c--ai--intelligent-applications) · [D Backend](#d--backend--systems-engineering) · [E Full Stack](#e--full-stack--produits) · [Live](#applications-live--urls-vérifiées) · [Méthode](#méthode-de-cette-vitrine)
 
 ---
 
-## Featured Projects — les 5 réalisations majeures
+## Featured — 5 réalisations majeures
 
-### 1 · HESYD-ONE — Agent documentaire d'archives multi-tenant
+### 01 · HESYD-ONE — Agent documentaire d'archives multi-tenant
 
-`PUBLIC` · `COMPLET` · `L4` · **Catégorie : AI & Intelligent Applications**
-
-<img src="https://raw.githubusercontent.com/MonsterH-H/HESYD-ONE/main/public/logo-seal.png" width="72" align="right" alt="Logo HESYD-ONE"/>
+<div align="center">
+<img src="assets/featured-hesyd-one.svg" alt="HESYD-ONE — pipeline documentaire : réception multicanal, classification IA, archivage SHA-256, Q&A sourcée, livrables" width="100%"/>
+</div>
 
 **Problème.** Les organisations reçoivent des documents par e-mail, WhatsApp et Drive, sans classification ni preuve de dépôt. L'archivage devient opaque et les questions sur les données restent sans réponse sourcée.
 
@@ -86,17 +44,19 @@ graph LR
 - **63 routes API** (31 domaines) · **39 modèles Prisma** · **36 modules `lib/`**
 - **14 outils d'agent IA typés** · **185 fichiers TS/TSX (~30 900 LOC)**
 - MFA **TOTP RFC 6238** · Google OAuth 2.0 **+ PKCE (S256)** · webhooks Polar vérifiés en `timingSafeEqual`
-- **Test d'isolation inter-organisations exécuté** (documenté dans `AUDIT.md`)
+- **Test d'isolation inter-organisations exécuté** (documenté dans `docs/AUDIT.md`)
 
 **Stack :** Next.js 16 · React 19 · Prisma 6 (SQLite dev / PostgreSQL + pgvector prod) · z-ai-web-dev-sdk (chat + ASR) · Azure AI Foundry · Google Document AI · Polar · WhatsApp Cloud API · n8n · Docker multi-stage + Compose.
 
-**Repo :** [MonsterH-H/HESYD-ONE](https://github.com/MonsterH-H/HESYD-ONE) · Déploiement VPS documenté (`docs/DEPLOIEMENT.md`, RPO 24h / RTO 8h).
+**Preuve & déploiement :** [MonsterH-H/HESYD-ONE](https://github.com/MonsterH-H/HESYD-ONE) · déploiement VPS documenté (`docs/DEPLOIEMENT.md`, RPO 24h / RTO 8h) · site produit [hesyd.com](https://www.hesyd.com).
 
 ---
 
-### 2 · Valify — SaaS de réservation sécurisé par engagement financier
+### 02 · Valify — SaaS de réservation sécurisé par engagement financier
 
-`PRIVÉ` · `COMPLET` · `L4` · **Catégorie : Full Stack & Produits**
+<div align="center">
+<img src="assets/featured-valify.svg" alt="Valify — flux de réservation : créneau, acompte ou empreinte bancaire, réservation garantie, pénalités, litiges" width="100%"/>
+</div>
 
 **Problème.** Les no-shows coûtent cher aux prestataires de services ; les agendas classiques ne sécurisent pas les créneaux.
 
@@ -111,13 +71,15 @@ graph LR
 
 **Stack :** Next.js 16 · TypeScript strict · Prisma 6 + PostgreSQL (Neon) · Polar (webhooks Svix signés) · Resend · WhatsApp · Web Push VAPID · Bun + Playwright.
 
-**Statut documenté :** produit fonctionnel — mise en production conditionnée à la validation des intégrations live (matrice de réception `docs/FINAL_CDC_MATRIX.md`). Code confidentiel — non publié.
+**Statut documenté :** produit fonctionnel — mise en production conditionnée à la validation des intégrations live (matrice de réception `docs/FINAL_CDC_MATRIX.md`). Code confidentiel — non publié, **démonstration contrôlée sur demande**.
 
 ---
 
-### 3 · OmniAd AI — Génération publicitaire multilingue (FR / EN / AR + RTL)
+### 03 · OmniAd AI — Génération publicitaire multilingue (FR / EN / AR + RTL)
 
-`PRIVÉ` · `COMPLET` · `L4` · **Catégorie : AI & Intelligent Applications**
+<div align="center">
+<img src="assets/featured-omniad.svg" alt="OmniAd AI — FR, EN, AR RTL vers 4 studios de génération, 5 modèles NVIDIA NIM, ffmpeg, Polar" width="100%"/>
+</div>
 
 **Problème.** Produire des campagnes cohérentes multi-canaux et multilingues (arabe inclus, avec RTL) demande des compétences et des outils qu'une TPE n'a pas.
 
@@ -131,13 +93,15 @@ graph LR
 
 **Stack :** Next.js 16 · Prisma + PostgreSQL (Neon) · NextAuth v4 + Google OAuth + 2FA TOTP · UploadThing · Upstash Redis · z-ai-web-dev-sdk / NVIDIA NIM.
 
+**Visibilité :** code confidentiel — **démonstration contrôlée sur demande**.
+
 ---
 
-### 4 · AIDIP — BI conversationnelle pour Microsoft Fabric
+### 04 · AIDIP — BI conversationnelle pour Microsoft Fabric
 
-`PUBLIC` (v3) + `PRIVÉ` (v4) · `COMPLET` · `L4` · **Catégorie : AI & Intelligent Applications**
-
-<img src="https://raw.githubusercontent.com/MonsterH-H/aidip-generator/main/public/aidip.svg" width="64" align="right" alt="Logo AIDIP"/>
+<div align="center">
+<img src="assets/featured-aidip.svg" alt="AIDIP — pipeline langage naturel vers DAX : planification, exécution Fabric, interprétation, validation anti-hallucination" width="100%"/>
+</div>
 
 **Problème.** Les utilisateurs métier ne savent pas écrire le DAX nécessaire pour interroger les modèles sémantiques Power BI — et les LLM « inventent » des chiffres s'ils ne sont pas contraints.
 
@@ -151,9 +115,11 @@ graph LR
 
 ---
 
-### 5 · EDIA — Backend Data Science de décision (FastAPI + ML)
+### 05 · EDIA — Backend Data Science de décision (FastAPI + ML)
 
-`PRIVÉ` · `COMPLET` · `L4` · **Catégorie : Data & Analytics**
+<div align="center">
+<img src="assets/featured-edia.svg" alt="EDIA — pipeline de données : Olist 565 328 lignes et Retail II 1 067 371 lignes, data engineering, 7 modèles joblib, assistant IA ancré" width="100%"/>
+</div>
 
 **Problème.** Les directions ont besoin de KPI, de prévisions et de détection d'anomalies **traçables** — pas de chiffres produits par une boîte noire.
 
@@ -169,22 +135,28 @@ graph LR
 
 **Stack :** FastAPI · pandas · scikit-learn · Resend · UploadThing · Pytest · GitHub Actions.
 
+**Visibilité :** code confidentiel — **démonstration contrôlée sur demande**.
+
 ---
 
-## Project Catalog
+## Catalogue complet — 20 projets, 5 catégories
 
 ### A · Data & Analytics
 
-> Pipelines, modélisation dimensionnelle, KPI métier et BI décisionnelle — **2 projets**.
+<div align="center">
+<img src="assets/category-a-data.svg" alt="Catégorie A — Data & Analytics — 2 projets" width="100%"/>
+</div>
 
 | Projet | Apport | KPI vérifiés | Stack | Statut |
 |---|---|---|---|---|
 | [**Business Intelligence — Ventes & Achats**](https://github.com/MonsterH-H/Business-Inteligence) `PUBLIC` | Modèle en étoile + ETL Power Query (M) + rapports interactifs pour direction commerciale | 29 mesures DAX · 4 relations · faits 2 540 ventes + 2 507 achats · 14 produits / 50 clients / 3 régions · 2 rapports, 4 pages, 12 visuels | Power BI · DAX · Power Query · Excel | `COMPLET` L3 |
-| **EDIA** `PRIVÉ` *(fiche ci-dessus)* | Backend de décision data-driven déterministe et traçable | 7 modèles · > 1,6 M lignes · 196 tests · 64 paths API | FastAPI · scikit-learn | `COMPLET` L4 |
+| **EDIA** `PRIVÉ` *(fiche Featured n°05)* | Backend de décision data-driven déterministe et traçable | 7 modèles · > 1,6 M lignes · 196 tests · 64 paths API | FastAPI · scikit-learn | `COMPLET` L4 |
 
 ### B · Machine Learning
 
-> Modèles entraînés, évalués et exportés — distincts des applications consommant des LLM externes — **3 projets**.
+<div align="center">
+<img src="assets/category-b-ml.svg" alt="Catégorie B — Machine Learning — 3 projets" width="100%"/>
+</div>
 
 | Projet | Apport | KPI / métriques vérifiées | Stack | Statut |
 |---|---|---|---|---|
@@ -194,18 +166,22 @@ graph LR
 
 ### C · AI & Intelligent Applications
 
-> Applications intégrant LLM, agents, RAG et générations multimédiales — **4 projets** *(3 fiches détaillées ci-dessus)*.
+<div align="center">
+<img src="assets/category-c-ai.svg" alt="Catégorie C — AI & Intelligent Applications — 4 projets" width="100%"/>
+</div>
 
 | Projet | Apport | KPI vérifiés | Stack | Statut |
 |---|---|---|---|---|
-| [**HESYD-ONE**](https://github.com/MonsterH-H/HESYD-ONE) `PUBLIC` ★ | Agent documentaire multi-tenant, Q&A sourcée, archivage sur preuve | *(fiche Featured n°1)* | Next.js · Prisma · z-ai SDK · Docker | `COMPLET` L4 |
-| [**AIDIP**](https://github.com/MonsterH-H/aidip-generator) `PUBLIC` ★ | BI conversationnelle Fabric, pipeline NL→DAX grounded | *(fiche Featured n°4)* | React · Azure OpenAI · Fabric SQL · RLS | `COMPLET` L4 |
-| **OmniAd AI** `PRIVÉ` ★ | Génération publicitaire multilingue FR/EN/AR (RTL) | *(fiche Featured n°3)* | Next.js · NVIDIA NIM · ffmpeg · Polar | `COMPLET` L4 |
+| [**HESYD-ONE**](https://github.com/MonsterH-H/HESYD-ONE) `PUBLIC` — *Featured 01* | Agent documentaire multi-tenant, Q&A sourcée, archivage sur preuve | *(fiche Featured n°01)* | Next.js · Prisma · z-ai SDK · Docker | `COMPLET` L4 |
+| [**AIDIP**](https://github.com/MonsterH-H/aidip-generator) `PUBLIC` — *Featured 04* | BI conversationnelle Fabric, pipeline NL→DAX grounded | *(fiche Featured n°04)* | React · Azure OpenAI · Fabric SQL · RLS | `COMPLET` L4 |
+| **OmniAd AI** `PRIVÉ` — *Featured 03* | Génération publicitaire multilingue FR/EN/AR (RTL) | *(fiche Featured n°03)* | Next.js · NVIDIA NIM · ffmpeg · Polar | `COMPLET` L4 |
 | [**Prompt Engineering Lab**](https://github.com/MonsterH-H/prompt-engineering-lab) `PUBLIC` | Comparateur temps réel de **6 techniques de prompt** (baseline vs engineered, métriques de tokens) | 6 techniques codées (Zero/Few-Shot, CoT, Role, Structured Output, ReAct) · 5 tâches prédéfinies · comptage de tokens réel | React 19 · Vite · Claude API | `COMPLET` L3 |
 
 ### D · Backend & Systems Engineering
 
-> APIs, sécurité, architectures distribuées et intégration de modèles — **5 projets**.
+<div align="center">
+<img src="assets/category-d-backend.svg" alt="Catégorie D — Backend & Systems Engineering — 5 projets" width="100%"/>
+</div>
 
 | Projet | Apport | KPI vérifiés | Stack | Statut |
 |---|---|---|---|---|
@@ -215,18 +191,24 @@ graph LR
 | **E-Vignette Maroc** `PRIVÉ` (stage BITS, Casablanca) | Système de vignettes automobiles : citoyens, agents, administrateurs | 3 rôles · JWT · achat + tarifs + **PDF/QR** · signalements & audit · Swagger · Dockerfile | Spring Boot 3 · PostgreSQL | `COMPLET` L3 |
 | **AlphaEngine** `PRIVÉ` | Terminal de trading **100 % réel** (aucune simulation) : adaptateurs courtier, risk gate, labo statistique | **73 routes API** · adaptateurs Binance (3 types de signature, OCO native) + Alpaca · isolation DÉMO/LIVE transport-level (40 checks) · Risk Gate déterministe · 6 stratégies · 7 méthodes de sizing · walk-forward + Monte Carlo · **214 tests unitaires TCU** · CI 6 jobs + images GHCR | Next.js 16 · Prisma · Docker · GitHub Actions | `COMPLET` L4 |
 
-### E · Full Stack Applications & Products
+### E · Full Stack & Produits
 
-> Applications complètes, produits SaaS et systèmes métier — **6 projets**.
+<div align="center">
+<img src="assets/category-e-fullstack.svg" alt="Catégorie E — Full Stack & Produits — 6 projets" width="100%"/>
+</div>
 
 | Projet | Apport | KPI vérifiés | Stack | Statut |
 |---|---|---|---|---|
-| **Valify** `PRIVÉ` ★ | SaaS de réservation sécurisé par acompte, multi-tenant strict | *(fiche Featured n°2)* | Next.js 16 · Prisma · Polar | `COMPLET` L4 |
+| **Valify** `PRIVÉ` — *Featured 02* | SaaS de réservation sécurisé par acompte, multi-tenant strict | *(fiche Featured n°02)* | Next.js 16 · Prisma · Polar | `COMPLET` L4 |
 | **Postula** `PRIVÉ` | SaaS dual : recherche d'emploi + acquisition client, hub de communication multicanal | CV versionnés + matching explicable · CRM + pipeline 9 étapes · **hub 4 canaux** (WAHA, Meta Cloud, Email, Telegram) + inbox unifiée · consentements vérifiés · n8n (webhooks HMAC) · **1 100 tests documentés** (CI) + 19 E2E Playwright + 175 parcours E2E Python · Argon2id + HIBP · RBAC 3 rôles · 36 pages | Next.js 16 · Prisma · Polar · n8n | `DEV` L4 |
 | [**Académie AMDRH**](https://github.com/MonsterH-H/amdrh-academy) `PUBLIC` | Plateforme e-learning pour arbitres de handball (partenaire FRMHB) | **80 routes API** · **31 modèles Prisma** (Neon) · 5 rôles + **40+ permissions granulaires** · certificats PDF + **vérification QR** · badges 4 niveaux · messagerie + forum + **temps réel Socket.IO** · import CSV · audit logs · **10 captures + 6 diagrammes UML + rapport de stage** dans le dépôt | Next.js 16 · Prisma · NextAuth · Socket.IO | `COMPLET` L4 |
 | [**Pharma Manager**](https://github.com/MonsterH-H/pharma-manager) `PUBLIC` | Gestion de pharmacie : stock, ventes, alertes | Django 6 + DRF (JWT, Swagger) · React 19 + TanStack Query · ventes panier, annulation, **alertes stock bas**, export CSV · Docker Compose + nginx | Django · DRF · React · PostgreSQL | `PROD` L5 — **live** |
 | **Pharmaflow** `PRIVÉ` (+[app mobile publique](https://github.com/MonsterH-H/pharmaflow_mobile)) | E-santé : gestion d'ordonnances pharmaceutiques au Maroc (backend + web + mobile Flutter) | Backend Spring Boot (ordonnances, pharmacies, pharmaciens, abonnements, notifications Twilio, docs `MODULE-*.md`) · app Flutter **22 écrans** (OTP, ordonnances photo + QR, pharmacies géolocalisées, FCM) · web React/Vite + nginx + Docker | Spring Boot · Flutter · React · PostgreSQL | `COMPLET` L3 |
 | **BuildingSense** `PRIVÉ` | SaaS BTP tout-en-un : chantiers, budget, comptabilité, présence, rapports | **~33 routes fonctionnelles** (chantiers, budget, compta, matériaux, équipements, pointage, rapports, documents, messagerie, dashboards 3 rôles, assistant IA) · Supabase Auth + **10 RPCs** + edge function invitations · Recharts · exports jsPDF | React · Vite · Supabase | `PROD` L5 — **live** |
+
+### F · Automation & Engineering — catégorie volontairement non alimentée
+
+> Aucun projet n'a été retenu dans cette sélection : les candidats d'automatisation (workflows n8n, RELANCE) n'ont pas passé le critère de substance vérifiable. **Aucune catégorie n'est alimentée artificiellement.**
 
 ---
 
@@ -241,7 +223,7 @@ Les projets marqués `PRIVÉ` ci-dessus (Valify, OmniAd AI, EDIA, Postula, Fleet
 
 ---
 
-## Live Projects — URLs vérifiées
+## Applications live — URLs vérifiées
 
 | Application | Domaine | État constaté (vérification directe) |
 |---|---|---|
@@ -260,28 +242,33 @@ Les projets marqués `PRIVÉ` ci-dessus (Valify, OmniAd AI, EDIA, Postula, Fleet
 | Domaine | Démontré par |
 |---|---|
 | **Data Engineering & BI** | EDIA (> 1,6 M lignes, 7 modèles, 196 tests) · Power BI (étoile, 29 DAX) · pipelines pandas/scikit-learn |
-| **Machine Learning** | Classifica­tion médicale + ONNX (OncoAI) · régression + XAI SHAP (Petola) · vision PatchCore (MVTec) · export ONNX vers Java (FleetOpti) |
+| **Machine Learning** | Classification médicale + ONNX (OncoAI) · régression + XAI SHAP (Petola) · vision PatchCore (MVTec) · export ONNX vers Java (FleetOpti) |
 | **Applications IA / LLM** | Agents à outils sourcés (HESYD-ONE) · pipeline NL→DAX grounded (AIDIP) · génération multimédia NVIDIA (OmniAd) · prompt engineering (Lab) · intégration n8n |
 | **Backend & Architecture** | Spring Boot (117 endpoints SchoolGest, ONNX runtime FleetOpti) · Spring Cloud Eureka/Gateway/Feign · microservices par domaine · PostGIS, Kafka, WebSocket |
 | **Sécurité** | JWT + refresh, **TOTP 2FA**, OAuth PKCE, RLS multi-tenant, webhooks HMAC timing-safe, isolation transport-level, AES-256-GCM, RGPD |
-| **Full Stack & Produits** | 6 SaaS/products complets (billing Polar, i18n RTL, temps réel Socket.IO, mobile Flutter) |
+| **Full Stack & Produits** | 6 SaaS/produits complets (billing Polar, i18n RTL, temps réel Socket.IO, mobile Flutter) |
 | **Qualité & Industrialisation** | CI GitHub Actions, Playwright, Pytest, TCU, audits i18n, docker-compose, healthchecks, PRA |
 
 ---
 
-## Méthode
+## Méthode de cette vitrine
 
-Cette vitrine est le résultat d'un **audit complet de ~100 repositories** (contenu réel du code, structures, manifests, tests, notebooks et documentation) :
+Résultat d'un **audit complet de ~101 repositories** (contenu réel du code, structures, manifests, tests, notebooks et documentation) :
 
 - seuls les projets apportant une valeur technique démontrable sont listés ;
 - chaque KPI est **vérifiable** dans le dépôt, le notebook ou la documentation citée ;
 - les contenus tiers re-uploadés, exercices et prototypes sans substance ont été écartés de la vitrine (aucun repository n'a été supprimé) ;
-- les métriques invérifiables ont été volontairement retirées.
+- les métriques invérifiables ont été volontairement retirées ;
+- les diagrammes et fiches visuelles de cette page sont des **schémas d'architecture construits** (SVG vectoriels) — aucune capture d'écran n'est inventée ; les captures réelles restent dans les dépôts sources.
 
 ---
 
 ## Contact
 
-**Handy Christ TSOKA PEME** — Casablanca 🇲🇦 · ouvert aux opportunités (stage PFE, alternance, freelance)
+**Handy Christ TSOKA PEME** — Casablanca, Maroc · ouvert aux opportunités (stage PFE, alternance, freelance)
+
+<div align="center">
 
 [LinkedIn](https://www.linkedin.com/in/handy-christ-peme-tsoka-797329272) · [Email](mailto:handytsoka89@gmail.com) · [www.hesyd.com](https://www.hesyd.com)
+
+</div>
