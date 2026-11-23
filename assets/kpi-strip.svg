@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-labelledby="ks-t">
-  <title id="ks-t">Indicateurs clés vérifiés : 1,6M lignes de données · 63 routes API · 117 endpoints · 196 tests · 36 500 LOC · 5 modèles NIM</title>
-  <rect width="1280" height="150" fill="#0D1728"/>
-  <rect x="0" y="0" width="1280" height="3" fill="#3B82F6" opacity="0.85"/>
-  <g font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
-    <text x="40" y="66" font-size="31" font-weight="700" fill="#2DD4BF">1,6 M+</text>
-    <text x="40" y="90" font-size="12" fill="#8FA3BF">lignes de données ingérées</text>
-    <text x="40" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">EDIA · datasets réels trackés</text>
-    <line x1="222" y1="30" x2="222" y2="120" stroke="#1F3556"/>
-    <text x="248" y="66" font-size="31" font-weight="700" fill="#3B82F6">63</text>
-    <text x="248" y="90" font-size="12" fill="#8FA3BF">routes API</text>
-    <text x="248" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">HESYD-ONE · 31 domaines</text>
-    <line x1="430" y1="30" x2="430" y2="120" stroke="#1F3556"/>
-    <text x="456" y="66" font-size="31" font-weight="700" fill="#7DB1FF">117</text>
-    <text x="456" y="90" font-size="12" fill="#8FA3BF">endpoints Spring Boot</text>
-    <text x="456" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">SchoolGest ERP · JWT + RBAC</text>
-    <line x1="640" y1="30" x2="640" y2="120" stroke="#1F3556"/>
-    <text x="666" y="66" font-size="31" font-weight="700" fill="#2DD4BF">196</text>
-    <text x="666" y="90" font-size="12" fill="#8FA3BF">tests passants</text>
-    <text x="666" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">EDIA · CI GitHub Actions</text>
-    <line x1="852" y1="30" x2="852" y2="120" stroke="#1F3556"/>
-    <text x="878" y="66" font-size="31" font-weight="700" fill="#3B82F6">36 500</text>
-    <text x="878" y="90" font-size="12" fill="#8FA3BF">lignes de code</text>
-    <text x="878" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">AIDIP v3 · 23 pages · 64 composants</text>
-    <line x1="1074" y1="30" x2="1074" y2="120" stroke="#1F3556"/>
-    <text x="1100" y="66" font-size="31" font-weight="700" fill="#7DB1FF">5</text>
-    <text x="1100" y="90" font-size="12" fill="#8FA3BF">modèles NIM en prod</text>
-    <text x="1100" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">OmniAd AI · NVIDIA</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="220" viewBox="0 0 840 220" role="img" aria-label="Indicateurs clés vérifiés : 1,6M lignes ingérées, 196 tests, 117 endpoints, 63 routes API, ~36 500 LOC AIDIP, 5 modèles NIM">
+  <title>Indicateurs clés vérifiés</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C1A30"/>
+      <stop offset="1" stop-color="#091221"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4C8DFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#4C8DFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="840" height="220" fill="url(#bg)"/>
+  <ellipse cx="120" cy="20" rx="380" ry="220" fill="url(#glow)"/>
+  <line x1="280" y1="42" x2="280" y2="178" stroke="#7EB6FF" stroke-opacity="0.14"/>
+  <line x1="560" y1="42" x2="560" y2="178" stroke="#7EB6FF" stroke-opacity="0.14"/>
+  <line x1="40" y1="140" x2="800" y2="140" stroke="#7EB6FF" stroke-opacity="0.14"/>
+  <text x="140" y="92" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#2DD4BF">1,6M</text>
+  <text x="140" y="122" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7E97BC">LIGNES INGÉRÉES</text>
+  <text x="420" y="92" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#4C8DFF">196</text>
+  <text x="420" y="122" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7E97BC">TESTS PASSANTS</text>
+  <text x="700" y="92" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#7EB6FF">117</text>
+  <text x="700" y="122" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7E97BC">ENDPOINTS SPRING</text>
+  <text x="140" y="178" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#38BDF8">63</text>
+  <text x="140" y="208" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7E97BC">ROUTES API HESYD-ONE</text>
+  <text x="420" y="178" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#22D3EE">~36 500</text>
+  <text x="420" y="208" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7E97BC">LOC AIDIP V3</text>
+  <text x="700" y="178" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#2DD4BF">5</text>
+  <text x="700" y="208" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#7E97BC">MODÈLES NIM PROD</text>
 </svg>

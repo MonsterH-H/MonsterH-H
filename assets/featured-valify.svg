@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200" role="img" aria-label="Featured 02 — Valify">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="230" viewBox="0 0 840 230" role="img" aria-label="Featured 02 — Valify">
   <title>Featured 02 — Valify</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
@@ -14,18 +14,15 @@
       <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
     </radialGradient>
   </defs>
-
-  <rect width="840" height="200" fill="url(#bg)"/>
-  <ellipse cx="740" cy="0" rx="360" ry="220" fill="url(#glow)"/>
-  <rect x="0" y="0" width="6" height="200" fill="url(#bar)"/>
-  <rect x="0" y="199" width="840" height="1" fill="#7EB6FF" fill-opacity="0.12"/>
-
-  <text x="812" y="192" text-anchor="end" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="120" font-weight="800" fill="#13223C">02</text>
-
+  <rect width="840" height="230" fill="url(#bg)"/>
+  <ellipse cx="740" cy="0" rx="360" ry="240" fill="url(#glow)"/>
+  <rect x="0" y="0" width="6" height="230" fill="url(#bar)"/>
+  <rect x="0" y="229" width="840" height="1" fill="#7EB6FF" fill-opacity="0.12"/>
+  <text x="812" y="222" text-anchor="end" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="120" font-weight="800" fill="#13223C">02</text>
   <rect x="44" y="32" width="9" height="9" fill="#2DD4BF"/>
   <text x="62" y="41" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="4" fill="#8FA9CE">FEATURED · 02</text>
-
   <text x="44" y="102" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#F2F7FD">Valify</text>
   <text x="44" y="138" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="18" fill="#A9C1E8">SaaS de réservation sécurisé par engagement financier</text>
-  <text x="44" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1" fill="#7E97BC">76 MODÈLES PRISMA · ~97 ROUTES API · 9 E2E PLAYWRIGHT · 2FA TOTP · RGPD · PRIVÉ</text>
+  <text x="44" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.5" fill="#8FA9CE">CRÉNEAU → ACOMPTE / EMPREINTE → RÉSERVATION GARANTIE → PÉNALITÉS → LITIGES</text>
+  <text x="44" y="202" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1" fill="#7E97BC">76 MODÈLES PRISMA · ~97 ROUTES API · 9 E2E PLAYWRIGHT · 2FA TOTP · RGPD · PRIVÉ</text>
 </svg>

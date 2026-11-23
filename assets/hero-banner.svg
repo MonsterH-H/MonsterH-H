@@ -25,13 +25,11 @@
       <circle cx="2" cy="2" r="1.2" fill="#7EB6FF"/>
     </pattern>
   </defs>
-
   <rect width="840" height="360" fill="url(#bg)"/>
   <rect width="840" height="360" fill="url(#dots)" opacity="0.05"/>
   <ellipse cx="150" cy="-30" rx="430" ry="310" fill="url(#glowCobalt)"/>
   <ellipse cx="770" cy="390" rx="390" ry="290" fill="url(#glowTeal)"/>
   <rect x="0" y="0" width="840" height="4" fill="url(#topbar)"/>
-
   <g stroke="#4C8DFF" fill="none" stroke-opacity="0.12">
     <circle cx="668" cy="168" r="58"/>
     <circle cx="668" cy="168" r="92"/>
@@ -51,14 +49,11 @@
     <circle cx="590" cy="228" r="4" fill="#38BDF8"/>
     <circle cx="716" cy="252" r="3.5" fill="#22D3EE"/>
   </g>
-
   <rect x="56" y="58" width="508" height="34" rx="17" fill="#2DD4BF" fill-opacity="0.08" stroke="#2DD4BF" stroke-opacity="0.45"/>
   <text x="76" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#6FD9C8">DATA · MACHINE LEARNING · IA · FULL STACK</text>
-
   <text x="54" y="163" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="62" font-weight="800" letter-spacing="1" fill="#F2F7FD">HANDY CHRIST</text>
   <text x="54" y="232" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="62" font-weight="800" letter-spacing="1" fill="url(#nameGrad)">TSOKA PEME</text>
   <rect x="58" y="252" width="132" height="3" rx="1.5" fill="url(#topbar)"/>
-
   <text x="56" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2" fill="#8FA9CE">5ᵉ ANNÉE · SCIENCES DES DONNÉES — CASABLANCA · MAROC</text>
   <text x="56" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.5" fill="#5F7BA3">HANDYTSOKA.VERCEL.APP</text>
 </svg>

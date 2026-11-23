@@ -1,12 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="140" viewBox="0 0 1280 140" role="img" aria-labelledby="ce-t">
-  <title id="ce-t">Catégorie E — Full Stack &amp; Produits — 6 projets</title>
-  <rect width="1280" height="140" rx="16" fill="#0D1728"/>
-  <rect width="1280" height="140" rx="16" fill="none" stroke="#1F3556"/>
-  <rect x="2" y="2" width="6" height="136" rx="3" fill="#14B8A6"/>
-  <rect x="40" y="30" width="80" height="80" rx="14" fill="#0F2A4D" stroke="#14B8A6" stroke-width="1.5"/>
-  <text x="80" y="82" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">E</text>
-  <text x="150" y="58" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#F4F8FC">Full Stack &amp; Produits</text>
-  <text x="150" y="88" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" fill="#A9BCD6">Applications complètes et SaaS : e-learning, e-santé, réservation, BTP, communication</text>
-  <text x="1224" y="58" text-anchor="end" font-family="ui-monospace,monospace" font-size="14" fill="#14B8A6" font-weight="700">6 PROJETS</text>
-  <text x="1224" y="82" text-anchor="end" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#5B7291">Valify · Postula · AMDRH · Pharma Manager · Pharmaflow · BuildingSense</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="110" viewBox="0 0 840 110" role="img" aria-label="Catégorie E — Full Stack &amp; Produits">
+  <title>Catégorie E — Full Stack &amp; Produits</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C1A30"/>
+      <stop offset="1" stop-color="#091221"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#0E1E38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="840" height="110" fill="url(#bg)"/>
+  <ellipse cx="740" cy="0" rx="360" ry="240" fill="url(#glow)"/>
+  <rect x="0" y="0" width="6" height="110" fill="url(#bar)"/>
+  <rect x="0" y="109" width="840" height="1" fill="#7EB6FF" fill-opacity="0.12"/>
+  <text x="812" y="104" text-anchor="end" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="120" font-weight="800" fill="#13223C">E</text>
+  <rect x="44" y="29" width="8" height="8" fill="#22D3EE"/>
+  <text x="60" y="37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#8FA9CE">CATÉGORIE E</text>
+  <text x="44" y="80" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#F2F7FD">Full Stack &amp; Produits</text>
+  <text x="796" y="37" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1" fill="#6FD9C8">6 PROJETS</text>
 </svg>
