@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="140" viewBox="0 0 1280 140" role="img" aria-labelledby="cc-t">
+  <title id="cc-t">Catégorie C — AI &amp; Intelligent Applications — 4 projets</title>
+  <rect width="1280" height="140" rx="16" fill="#0D1728"/>
+  <rect width="1280" height="140" rx="16" fill="none" stroke="#1F3556"/>
+  <rect x="2" y="2" width="6" height="136" rx="3" fill="#3B82F6"/>
+  <rect x="40" y="30" width="80" height="80" rx="14" fill="#0F2A4D" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="80" y="82" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#3B82F6" text-anchor="middle">C</text>
+  <text x="150" y="58" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#F4F8FC">AI &amp; Intelligent Applications</text>
+  <text x="150" y="88" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" fill="#A9BCD6">Agents à outils sourcés, RAG, analytique conversationnelle, génération multimédia</text>
+  <text x="1224" y="58" text-anchor="end" font-family="ui-monospace,monospace" font-size="14" fill="#3B82F6" font-weight="700">4 PROJETS</text>
+  <text x="1224" y="82" text-anchor="end" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#5B7291">HESYD-ONE · AIDIP · OmniAd · Prompt Lab</text>
+</svg>
