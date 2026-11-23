@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420" role="img" aria-label="Handy Christ Tsoka Peme — Ingénieur Data, IA et Full-Stack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04090F"/>
+      <stop offset=".52" stop-color="#0A1628"/>
+      <stop offset="1" stop-color="#0E2140"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset=".55" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#F1F5F9"/>
+      <stop offset=".65" stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" x2="1">
+      <stop offset="0" stop-color="#67E8F9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#67E8F9" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#2563EB" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowT" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0v46" fill="none" stroke="#0F2038" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    @keyframes sheenMove{0%{transform:translateX(-260px)}100%{transform:translateX(1560px)}}
+    @keyframes nodePulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.22)}}
+    @keyframes nodePulse2{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.9)}}
+    .sheen{animation:sheenMove 7s linear infinite}
+    .n1{animation:nodePulse 4s ease-in-out infinite;transform-origin:center}
+    .n2{animation:nodePulse2 5s ease-in-out infinite;transform-origin:center}
+  </style>
+  <rect width="1500" height="420" fill="url(#bg)"/>
+  <rect width="1500" height="420" fill="url(#grid)"/>
+  <ellipse cx="300" cy="430" rx="460" ry="240" fill="url(#glowC)"/>
+  <ellipse cx="1310" cy="60" rx="380" ry="230" fill="url(#glowT)"/>
+  <g stroke="#1E3A5F" stroke-width="1.4" opacity=".9">
+    <line x1="1130" y1="150" x2="1240" y2="96"/>
+    <line x1="1240" y1="96" x2="1368" y2="140"/>
+    <line x1="1368" y1="140" x2="1420" y2="252"/>
+    <line x1="1420" y1="252" x2="1300" y2="318"/>
+    <line x1="1300" y1="318" x2="1160" y2="268"/>
+    <line x1="1160" y1="268" x2="1130" y2="150"/>
+    <line x1="1240" y1="96" x2="1300" y2="318"/>
+    <line x1="1368" y1="140" x2="1160" y2="268"/>
+  </g>
+  <g>
+    <circle class="n1" cx="1130" cy="150" r="7" fill="#3B82F6"/>
+    <circle cx="1240" cy="96" r="10" fill="#22D3EE" opacity=".95"/>
+    <circle class="n2" cx="1368" cy="140" r="6" fill="#60A5FA"/>
+    <circle class="n2" cx="1420" cy="252" r="8" fill="#1D4ED8"/>
+    <circle class="n1" cx="1300" cy="318" r="6" fill="#67E8F9"/>
+    <circle cx="1160" cy="268" r="9" fill="#2563EB" opacity=".9"/>
+    <circle cx="1240" cy="96" r="18" fill="none" stroke="#22D3EE" stroke-opacity=".4" stroke-width="1.2"/>
+    <circle cx="1420" cy="252" r="15" fill="none" stroke="#3B82F6" stroke-opacity=".35" stroke-width="1"/>
+  </g>
+  <g>
+    <rect x="940" y="130" width="118" height="118" rx="26" fill="#0B1A30" stroke="#1E3A5F" stroke-width="1.6"/>
+    <rect x="940" y="130" width="118" height="118" rx="26" fill="none" stroke="url(#accent)" stroke-width="1.2" opacity=".65"/>
+    <text x="999" y="196" text-anchor="middle" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="42" font-weight="800" fill="url(#name)" letter-spacing="1">HC</text>
+    <text x="999" y="222" text-anchor="middle" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="10.5" letter-spacing="3.5" fill="#7C8DA8">ENGINEER</text>
+  </g>
+  <text x="72" y="122" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4.5" fill="#22D3EE">PORTFOLIO D'INGENIEUR — DATA · IA · FULL-STACK</text>
+  <rect x="74" y="136" width="270" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="72" y="200" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="47" font-weight="800" fill="url(#name)" letter-spacing=".5">Handy Christ TSOKA PEME</text>
+  <text x="72" y="240" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="21.5" font-weight="600" fill="#B6C2D6">Ingénieur Data · IA &amp; Software Engineering</text>
+  <text x="72" y="270" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="15" fill="#7C8DA8">5e année Sciences des Données (SDDI) — Casablanca, Maroc · Solutions complètes : pipelines, ML, plateformes SaaS, systèmes IA</text>
+  <g font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="13.5" font-weight="600">
+    <rect x="72" y="296" width="150" height="34" rx="17" fill="#0E1D36" stroke="#1E3A5F"/><circle cx="94" cy="313" r="4.5" fill="#F59E0B"/><text x="107" y="318" fill="#CBD5E1">Data &amp; Analytics</text>
+    <rect x="232" y="296" width="158" height="34" rx="17" fill="#0E1D36" stroke="#1E3A5F"/><circle cx="254" cy="313" r="4.5" fill="#10B981"/><text x="267" y="318" fill="#CBD5E1">Machine Learning</text>
+    <rect x="400" y="296" width="176" height="34" rx="17" fill="#0E1D36" stroke="#1E3A5F"/><circle cx="422" cy="313" r="4.5" fill="#22D3EE"/><text x="435" y="318" fill="#CBD5E1">Applications IA / LLM</text>
+    <rect x="586" y="296" width="186" height="34" rx="17" fill="#0E1D36" stroke="#1E3A5F"/><circle cx="608" cy="313" r="4.5" fill="#8B5CF6"/><text x="621" y="318" fill="#CBD5E1">Backend Java / Spring</text>
+    <rect x="782" y="296" width="160" height="34" rx="17" fill="#0E1D36" stroke="#1E3A5F"/><circle cx="804" cy="313" r="4.5" fill="#F472B6"/><text x="817" y="318" fill="#CBD5E1">Full-Stack &amp; SaaS</text>
+  </g>
+  <text x="72" y="368" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Arial,sans-serif" font-size="13.5" fill="#7C8DA8">Chaque indicateur de ce portfolio est vérifié dans le code, les tests ou la documentation des projets.</text>
+  <rect class="sheen" x="-260" y="0" width="240" height="420" fill="url(#sheen)" transform="skewX(-14)"/>
+  <rect x="1" y="1" width="1498" height="418" rx="0" fill="none" stroke="#0F2038"/>
+  <rect x="0" y="414" width="1500" height="6" fill="url(#accent)"/>
+</svg>
