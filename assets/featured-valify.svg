@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-labelledby="fv-t">
+  <title id="fv-t">Valify — SaaS de réservation sécurisé par engagement financier : acompte, anti double-réservation PostgreSQL, politiques de pénalité, RGPD</title>
+  <defs>
+    <marker id="fa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#3E5C88"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="280" rx="16" fill="#0D1728"/>
+  <rect width="1280" height="280" rx="16" fill="none" stroke="#1F3556"/>
+  <rect x="2" y="2" width="6" height="276" rx="3" fill="#14B8A6"/>
+  <text x="56" y="52" font-family="ui-monospace,monospace" font-size="12" fill="#14B8A6" letter-spacing="3" font-weight="700">FEATURED 02</text>
+  <rect x="1026" y="32" width="80" height="26" rx="13" fill="none" stroke="#14B8A6"/>
+  <text x="1066" y="49" font-family="ui-monospace,monospace" font-size="11" fill="#14B8A6" text-anchor="middle">PRIVÉ</text>
+  <rect x="1114" y="32" width="110" height="26" rx="13" fill="none" stroke="#1F3556"/>
+  <text x="1169" y="49" font-family="ui-monospace,monospace" font-size="11" fill="#8FA3BF" text-anchor="middle">COMPLET · L4</text>
+  <text x="56" y="86" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#F4F8FC">Valify — Réservation sécurisée par engagement financier</text>
+  <text x="56" y="114" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" fill="#C7D6E9">Chaque créneau est validé par un acompte ou une empreinte bancaire. Tunnel sans compte client,</text>
+  <text x="56" y="134" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" fill="#C7D6E9">politiques de pénalité configurables, litiges tracés, multi-tenant strict.</text>
+  <g font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11.5" fill="#C7D6E9">
+    <rect x="690" y="52" width="250" height="28" rx="8" fill="#101C30" stroke="#24406B"/>
+    <text x="815" y="70" text-anchor="middle">Créneau choisi par le client</text>
+    <line x1="815" y1="80" x2="815" y2="90" stroke="#3E5C88" marker-end="url(#fa)"/>
+    <rect x="690" y="94" width="250" height="28" rx="8" fill="#0E2620" stroke="#14B8A6" stroke-opacity="0.6"/>
+    <text x="815" y="112" text-anchor="middle" fill="#9BE3D8">Acompte ou empreinte bancaire</text>
+    <line x1="815" y1="122" x2="815" y2="132" stroke="#3E5C88" marker-end="url(#fa)"/>
+    <rect x="690" y="136" width="250" height="28" rx="8" fill="#101C30" stroke="#24406B"/>
+    <text x="815" y="154" text-anchor="middle">Réservation garantie · sans compte</text>
+    <rect x="972" y="52" width="252" height="28" rx="8" fill="#101C30" stroke="#24406B"/>
+    <text x="1098" y="70" text-anchor="middle">Politiques de pénalité configurables</text>
+    <rect x="972" y="94" width="252" height="28" rx="8" fill="#101C30" stroke="#24406B"/>
+    <text x="1098" y="112" text-anchor="middle">Litiges &amp; remboursements tracés</text>
+    <rect x="972" y="136" width="252" height="28" rx="8" fill="#101C30" stroke="#24406B"/>
+    <text x="1098" y="154" text-anchor="middle">Espace client passwordless</text>
+  </g>
+  <g font-family="ui-monospace,monospace" font-size="11" fill="#9DB4D2">
+    <rect x="56" y="168" width="164" height="30" rx="15" fill="#101C30" stroke="#1F3556"/>
+    <text x="138" y="187" text-anchor="middle">76 modèles Prisma</text>
+    <rect x="232" y="168" width="140" height="30" rx="15" fill="#101C30" stroke="#1F3556"/>
+    <text x="302" y="187" text-anchor="middle">~97 routes API</text>
+    <rect x="384" y="168" width="164" height="30" rx="15" fill="#101C30" stroke="#1F3556"/>
+    <text x="466" y="187" text-anchor="middle">9 E2E Playwright</text>
+    <rect x="56" y="208" width="212" height="30" rx="15" fill="#101C30" stroke="#1F3556"/>
+    <text x="162" y="227" text-anchor="middle">anti double-résa btree_gist</text>
+    <rect x="280" y="208" width="164" height="30" rx="15" fill="#101C30" stroke="#1F3556"/>
+    <text x="362" y="227" text-anchor="middle">2FA TOTP · RGPD</text>
+    <rect x="456" y="208" width="196" height="30" rx="15" fill="#101C30" stroke="#1F3556"/>
+    <text x="554" y="227" text-anchor="middle">webhooks Svix signés</text>
+  </g>
+  <line x1="56" y1="248" x2="1224" y2="248" stroke="#14243D"/>
+  <text x="56" y="268" font-family="ui-monospace,monospace" font-size="12" fill="#5B7291">code confidentiel — démonstration contrôlée sur demande</text>
+  <text x="1224" y="268" text-anchor="end" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11.5" fill="#5B7291">Catégorie : Full Stack &amp; Produits</text>
+</svg>

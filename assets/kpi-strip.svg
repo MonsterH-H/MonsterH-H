@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-labelledby="ks-t">
+  <title id="ks-t">Indicateurs clés vérifiés : 1,6M lignes de données · 63 routes API · 117 endpoints · 196 tests · 36 500 LOC · 5 modèles NIM</title>
+  <rect width="1280" height="150" fill="#0D1728"/>
+  <rect x="0" y="0" width="1280" height="3" fill="#3B82F6" opacity="0.85"/>
+  <g font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+    <text x="40" y="66" font-size="31" font-weight="700" fill="#2DD4BF">1,6 M+</text>
+    <text x="40" y="90" font-size="12" fill="#8FA3BF">lignes de données ingérées</text>
+    <text x="40" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">EDIA · datasets réels trackés</text>
+    <line x1="222" y1="30" x2="222" y2="120" stroke="#1F3556"/>
+    <text x="248" y="66" font-size="31" font-weight="700" fill="#3B82F6">63</text>
+    <text x="248" y="90" font-size="12" fill="#8FA3BF">routes API</text>
+    <text x="248" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">HESYD-ONE · 31 domaines</text>
+    <line x1="430" y1="30" x2="430" y2="120" stroke="#1F3556"/>
+    <text x="456" y="66" font-size="31" font-weight="700" fill="#7DB1FF">117</text>
+    <text x="456" y="90" font-size="12" fill="#8FA3BF">endpoints Spring Boot</text>
+    <text x="456" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">SchoolGest ERP · JWT + RBAC</text>
+    <line x1="640" y1="30" x2="640" y2="120" stroke="#1F3556"/>
+    <text x="666" y="66" font-size="31" font-weight="700" fill="#2DD4BF">196</text>
+    <text x="666" y="90" font-size="12" fill="#8FA3BF">tests passants</text>
+    <text x="666" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">EDIA · CI GitHub Actions</text>
+    <line x1="852" y1="30" x2="852" y2="120" stroke="#1F3556"/>
+    <text x="878" y="66" font-size="31" font-weight="700" fill="#3B82F6">36 500</text>
+    <text x="878" y="90" font-size="12" fill="#8FA3BF">lignes de code</text>
+    <text x="878" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">AIDIP v3 · 23 pages · 64 composants</text>
+    <line x1="1074" y1="30" x2="1074" y2="120" stroke="#1F3556"/>
+    <text x="1100" y="66" font-size="31" font-weight="700" fill="#7DB1FF">5</text>
+    <text x="1100" y="90" font-size="12" fill="#8FA3BF">modèles NIM en prod</text>
+    <text x="1100" y="110" font-size="10.5" font-family="ui-monospace,monospace" fill="#5B7291">OmniAd AI · NVIDIA</text>
+  </g>
+</svg>
