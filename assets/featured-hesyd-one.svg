@@ -1,29 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-labelledby="f1-t">
-  <title id="f1-t">Featured 01 — HESYD-ONE</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200" role="img" aria-label="Featured 01 — HESYD-ONE">
+  <title>Featured 01 — HESYD-ONE</title>
   <defs>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#1D3352" opacity="0.45"/>
-    </pattern>
-    <radialGradient id="glowE" cx="0.85" cy="0.1" r="0.6">
-      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowT" cx="0.1" cy="0.95" r="0.5">
-      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.1"/>
-      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#3B82F6"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C1A30"/>
+      <stop offset="1" stop-color="#091221"/>
     </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C8DFF"/>
+      <stop offset="1" stop-color="#0E1E38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4C8DFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#4C8DFF" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="840" height="190" fill="#0B1424"/>
-  <rect width="840" height="190" fill="url(#dots)"/>
-  <rect width="840" height="190" fill="url(#glowE)"/>
-  <rect width="840" height="190" fill="url(#glowT)"/>
-  <rect x="0" y="0" width="6" height="190" fill="url(#accent)"/>
-  <text x="820" y="170" text-anchor="end" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="150" font-weight="700" fill="#0F2340">01</text>
-  <text x="40" y="56" font-family="ui-monospace,monospace" font-size="14" font-weight="600" fill="#5B7291" letter-spacing="3">FEATURED · 01</text>
-  <text x="40" y="112" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="#F4F8FC">HESYD-ONE</text>
-  <text x="40" y="150" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#2DD4BF">Agent documentaire multi-tenant</text>
+
+  <rect width="840" height="200" fill="url(#bg)"/>
+  <ellipse cx="740" cy="0" rx="360" ry="220" fill="url(#glow)"/>
+  <rect x="0" y="0" width="6" height="200" fill="url(#bar)"/>
+  <rect x="0" y="199" width="840" height="1" fill="#7EB6FF" fill-opacity="0.12"/>
+
+  <text x="812" y="192" text-anchor="end" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="120" font-weight="800" fill="#13223C">01</text>
+
+  <rect x="44" y="32" width="9" height="9" fill="#4C8DFF"/>
+  <text x="62" y="41" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="4" fill="#8FA9CE">FEATURED · 01</text>
+
+  <text x="44" y="102" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#F2F7FD">HESYD-ONE</text>
+  <text x="44" y="138" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="18" fill="#A9C1E8">Agent documentaire multi-tenant</text>
+  <text x="44" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1" fill="#7E97BC">63 ROUTES API · 39 MODÈLES PRISMA · 14 OUTILS AGENT · ~30 900 LOC · MFA TOTP · PUBLIC</text>
 </svg>

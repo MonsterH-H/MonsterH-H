@@ -1,32 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-labelledby="hb-t">
-  <title id="hb-t">Handy Christ TSOKA PEME — Data · Machine Learning · IA · Full Stack</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="360" viewBox="0 0 840 360" role="img" aria-label="Handy Christ TSOKA PEME — Data · Machine Learning · IA · Full Stack">
+  <title>Handy Christ TSOKA PEME — Data · Machine Learning · IA · Full Stack</title>
   <defs>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#1D3352" opacity="0.5"/>
-    </pattern>
-    <radialGradient id="glowE" cx="0.18" cy="0.05" r="0.75">
-      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.16"/>
-      <stop offset="0.6" stop-color="#3B82F6" stop-opacity="0.04"/>
-      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#060B14"/>
+      <stop offset="1" stop-color="#0C182B"/>
+    </linearGradient>
+    <linearGradient id="topbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#4C8DFF"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#7EB6FF"/>
+    </linearGradient>
+    <radialGradient id="glowCobalt" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4C8DFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#4C8DFF" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowT" cx="0.88" cy="0.95" r="0.55">
-      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.12"/>
+    <radialGradient id="glowTeal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.14"/>
       <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2DD4BF"/>
-      <stop offset="0.5" stop-color="#3B82F6"/>
-      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
-    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#7EB6FF"/>
+    </pattern>
   </defs>
-  <rect width="840" height="300" fill="#0B1424"/>
-  <rect width="840" height="300" fill="url(#dots)"/>
-  <rect width="840" height="300" fill="url(#glowE)"/>
-  <rect width="840" height="300" fill="url(#glowT)"/>
-  <rect x="390" y="40" width="60" height="60" rx="14" fill="#0F2A4D" stroke="#2E62B8" stroke-width="1.5"/>
-  <text x="420" y="82" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="32" font-weight="700" fill="#7DB1FF" text-anchor="middle">H</text>
-  <text x="420" y="154" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="46" font-weight="700" fill="#F4F8FC" text-anchor="middle" letter-spacing="0.5">HANDY CHRIST TSOKA PEME</text>
-  <text x="420" y="196" font-family="ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace" font-size="18" font-weight="600" fill="#2DD4BF" text-anchor="middle" letter-spacing="4">DATA · MACHINE LEARNING · IA · FULL STACK</text>
-  <rect x="240" y="222" width="360" height="2" fill="url(#hairline)"/>
-  <text x="420" y="264" font-family="ui-monospace,monospace" font-size="16" fill="#5B7291" text-anchor="middle" letter-spacing="2">CASABLANCA · MAROC</text>
+
+  <rect width="840" height="360" fill="url(#bg)"/>
+  <rect width="840" height="360" fill="url(#dots)" opacity="0.05"/>
+  <ellipse cx="150" cy="-30" rx="430" ry="310" fill="url(#glowCobalt)"/>
+  <ellipse cx="770" cy="390" rx="390" ry="290" fill="url(#glowTeal)"/>
+  <rect x="0" y="0" width="840" height="4" fill="url(#topbar)"/>
+
+  <g stroke="#4C8DFF" fill="none" stroke-opacity="0.12">
+    <circle cx="668" cy="168" r="58"/>
+    <circle cx="668" cy="168" r="92"/>
+    <circle cx="668" cy="168" r="126"/>
+  </g>
+  <g stroke="#7EB6FF" stroke-opacity="0.18" stroke-width="1">
+    <line x1="668" y1="168" x2="606" y2="118"/>
+    <line x1="668" y1="168" x2="742" y2="102"/>
+    <line x1="668" y1="168" x2="590" y2="228"/>
+    <line x1="668" y1="168" x2="716" y2="252"/>
+    <line x1="606" y1="118" x2="742" y2="102"/>
+  </g>
+  <g>
+    <circle cx="668" cy="168" r="6" fill="#2DD4BF"/>
+    <circle cx="606" cy="118" r="4" fill="#4C8DFF"/>
+    <circle cx="742" cy="102" r="4.5" fill="#7EB6FF"/>
+    <circle cx="590" cy="228" r="4" fill="#38BDF8"/>
+    <circle cx="716" cy="252" r="3.5" fill="#22D3EE"/>
+  </g>
+
+  <rect x="56" y="58" width="508" height="34" rx="17" fill="#2DD4BF" fill-opacity="0.08" stroke="#2DD4BF" stroke-opacity="0.45"/>
+  <text x="76" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3" fill="#6FD9C8">DATA · MACHINE LEARNING · IA · FULL STACK</text>
+
+  <text x="54" y="163" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="62" font-weight="800" letter-spacing="1" fill="#F2F7FD">HANDY CHRIST</text>
+  <text x="54" y="232" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="62" font-weight="800" letter-spacing="1" fill="url(#nameGrad)">TSOKA PEME</text>
+  <rect x="58" y="252" width="132" height="3" rx="1.5" fill="url(#topbar)"/>
+
+  <text x="56" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2" fill="#8FA9CE">5ᵉ ANNÉE · SCIENCES DES DONNÉES — CASABLANCA · MAROC</text>
+  <text x="56" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.5" fill="#5F7BA3">HANDYTSOKA.VERCEL.APP</text>
 </svg>
