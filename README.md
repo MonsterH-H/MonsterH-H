@@ -15,18 +15,18 @@
 
 <br/>
 
-Je conçois et je livre des systèmes complets : pipelines de données et modèles de machine learning, plateformes SaaS multi-tenant, backends Spring Boot, applications IA.
+Je construis des outils numériques à partir d’un besoin métier : fiabiliser un traitement, rendre des données compréhensibles ou simplifier une opération quotidienne.
 
-Ce document présente **20 projets**. Chacun a été relu dans son code réel, et chaque chiffre renvoie à un dépôt, un notebook ou une documentation. Toutes les fiches suivent le même ordre : le problème, la solution, ce qui a été réalisé, les outils, l'accès au code.
+Ce portfolio présente **20 projets**, relus à partir de leur code et de leur documentation. Chaque fiche explique le besoin, la réponse développée, les choix techniques et les résultats vérifiables. Quand un impact utilisateur n’a pas été mesuré, je décris le livrable sans lui attribuer de gain chiffré.
 
 <br/>
 
 <div align="center">
 
-| 1,6 M | 196 | 117 | 63 | ~36 500 | 5 |
+| 1,6 M | 196 | 117 | 63 | 29 | 5 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| lignes de données<br/>traitées | tests<br/>passants | endpoints<br/>Spring Boot | routes API<br/>d'un SaaS | lignes de code<br/>d'une plateforme BI | modèles NVIDIA NIM<br/>en production |
-| EDIA | EDIA | SchoolGest | HESYD-ONE | AIDIP v3 | OmniAd AI |
+| lignes dans deux<br/>jeux de données réels | tests<br/>réussis | endpoints API<br/>SchoolGest | routes API<br/>HESYD-ONE | mesures métier<br/>Power BI | modèles NVIDIA NIM<br/>en production |
+| EDIA | EDIA | SchoolGest | HESYD-ONE | Business Intelligence | OmniAd AI |
 
 </div>
 
@@ -67,26 +67,26 @@ Ce document présente **20 projets**. Chacun a été relu dans son code réel, e
 
 | Projet | Catégorie | Ce que c'est | Statut | Code | Niveau |
 |:--|:--|:--|:--|:--|:-:|
-| [**HESYD-ONE**](#hesyd-one) | IA | Agent documentaire d'archives multi-tenant | Complet | Public | L4 |
-| [**Valify**](#valify) | Full Stack | SaaS de réservation avec acompte | Complet | Privé | L4 |
-| [**OmniAd AI**](#omniad) | IA | Génération publicitaire en FR, EN et AR | Complet | Privé | L4 |
-| [**AIDIP**](#aidip) | IA | BI conversationnelle pour Microsoft Fabric | Complet | Public (v3) | L4 |
-| [**EDIA**](#edia) | Data | Backend Data Science de décision | Complet | Privé | L4 |
-| [Business Intelligence](#bi) | Data | Ventes et achats sous Power BI | Complet | Public | L3 |
-| [OncoAI PRO](#oncoai) | Machine Learning | Aide au diagnostic du risque de cancer | Complet | Public | L4 |
-| [Petola](#petola) | Machine Learning | Prévision de production pétrolière explicable | Complet | Public | L4 |
-| [MVTec](#mvtec) | Machine Learning | Détection d'anomalies industrielles | Recherche | Public | L2 |
-| [Prompt Engineering Lab](#prompt-lab) | IA | Comparateur de techniques de prompt | Complet | Public | L3 |
-| [SchoolGest](#schoolgest) | Backend | ERP scolaire Spring Boot et Angular | Complet | Public | L4 |
-| [FleetOpti AI](#fleetopti) | Backend | Logistique prédictive avec inférence ONNX | Complet | Privé | L3 |
-| [ServiceDiscovery](#servicediscovery) | Backend | Microservices Eureka, Gateway, Feign | Complet | Public | L3 |
-| [E-Vignette Maroc](#evignette) | Backend | Vignettes automobiles, stage BITS | Complet | Privé | L3 |
-| [AlphaEngine](#alphaengine) | Backend | Terminal de trading réel | Complet | Privé | L4 |
-| [Postula](#postula) | Full Stack | SaaS emploi et acquisition client | En développement | Privé | L4 |
-| [Académie AMDRH](#amdrh) | Full Stack | E-learning pour arbitres de handball | Complet | Public | L4 |
-| [Pharma Manager](#pharma-manager) | Full Stack | Gestion de pharmacie | Production | Public | L5 |
-| [Pharmaflow](#pharmaflow) | Full Stack | Ordonnances pharmaceutiques au Maroc | Complet | Privé, mobile public | L3 |
-| [BuildingSense](#buildingsense) | Full Stack | SaaS BTP tout-en-un | Production | Privé | L5 |
+| [**HESYD-ONE**](#hesyd-one) | IA | Centraliser, classer et retrouver des documents avec des réponses appuyées sur leurs sources | Complet | Public | L4 |
+| [**Valify**](#valify) | Full Stack | Confirmer les réservations par acompte ou empreinte et tracer les conditions acceptées | Complet | Privé | L4 |
+| [**OmniAd AI**](#omniad) | IA | Créer des textes, images, vidéos et voix off en français, anglais et arabe | Complet | Privé | L4 |
+| [**AIDIP**](#aidip) | IA | Interroger Microsoft Fabric en langage courant avec des résultats reliés aux données | Complet | Public (v3) | L4 |
+| [**EDIA**](#edia) | Data | Transformer des données commerciales en indicateurs, prévisions et scénarios traçables | Complet | Privé | L4 |
+| [Business Intelligence](#bi) | Data | Réunir ventes et achats pour suivre des indicateurs commerciaux définis une fois | Complet | Public | L3 |
+| [OncoAI PRO](#oncoai) | Machine Learning | Prototype d’analyse de risque sur données publiques, non validé cliniquement | Complet | Public | L4 |
+| [Petola](#petola) | Machine Learning | Prévoir la production journalière et expliquer les facteurs qui influencent l’estimation | Complet | Public | L4 |
+| [MVTec](#mvtec) | Machine Learning | Repérer des écarts dans des images de transistors à partir d’exemples normaux | Recherche | Public | L2 |
+| [Prompt Engineering Lab](#prompt-lab) | IA | Comparer des réponses de LLM et leur coût en tokens selon six techniques | Complet | Public | L3 |
+| [SchoolGest](#schoolgest) | Backend | Réunir les tâches scolaires dans des espaces adaptés aux administrateurs, enseignants et élèves | Complet | Public | L4 |
+| [FleetOpti AI](#fleetopti) | Backend | Faire tourner des modèles de maintenance dans un backend de gestion de flotte | Complet | Privé | L3 |
+| [ServiceDiscovery](#servicediscovery) | Backend | Découvrir les services disponibles et router leurs appels sans adresses fixes | Complet | Public | L3 |
+| [E-Vignette Maroc](#evignette) | Backend | Gérer les demandes de vignette et leur suivi pour citoyens, agents et administration | Complet | Privé | L3 |
+| [AlphaEngine](#alphaengine) | Backend | Transmettre les ordres aux courtiers avec séparation des environnements et contrôle du risque | Complet | Privé | L4 |
+| [Postula](#postula) | Full Stack | Suivre recherche d’emploi et prospection commerciale dans deux espaces distincts | En développement | Privé | L4 |
+| [Académie AMDRH](#amdrh) | Full Stack | Organiser les cours, évaluations et certificats de formation handball | Complet | Public | L4 |
+| [Pharma Manager](#pharma-manager) | Full Stack | Suivre les stocks, les ventes et les alertes de réassort | Production | Public | L5 |
+| [Pharmaflow](#pharmaflow) | Full Stack | Transmettre une ordonnance et suivre son traitement entre patient et pharmacie | Complet | Privé, mobile public | L3 |
+| [BuildingSense](#buildingsense) | Full Stack | Rassembler le suivi des équipes, du budget et des ressources de chantier | Production | Privé | L5 |
 
 <br/>
 
@@ -110,11 +110,10 @@ Cinq projets détaillés ici. Les quinze autres sont au [catalogue](#catalogue).
 
 | | |
 |:--|:--|
-| **Problème** | Les organisations reçoivent leurs documents par e-mail, WhatsApp et Drive, sans classification ni preuve de dépôt. L'archivage devient opaque et les questions sur les données restent sans réponse sourcée. |
-| **Solution** | Un SaaS multi-tenant qui couvre tout le cycle documentaire, de la réception à la livraison. Un agent IA répond aux questions en citant ses sources. |
-| **Flux** | `Réception multicanal` → `Classification` → `Archivage sur preuve (SHA-256 revérifié)` → `Questions-réponses sourcées` → `Livrables PDF, Excel, Word` |
-| **Réalisé** | 63 routes API réparties en 31 domaines<br/>39 modèles Prisma et 36 modules `lib/`<br/>14 outils d'agent IA typés<br/>185 fichiers TS/TSX, environ 30 900 lignes<br/>MFA TOTP (RFC 6238), Google OAuth 2.0 avec PKCE (S256), webhooks Polar vérifiés en `timingSafeEqual`<br/>Test d'isolation entre organisations exécuté, documenté dans `docs/AUDIT.md`<br/>Déploiement sur VPS documenté dans `docs/DEPLOIEMENT.md` (RPO 24 h, RTO 8 h) |
-| **Outils** | `Next.js 16` `React 19` `Prisma 6` `SQLite (dev)` `PostgreSQL + pgvector (prod)` `z-ai-web-dev-sdk` `Azure AI Foundry` `Google Document AI` `Polar` `WhatsApp Cloud API` `n8n` `Docker` |
+| **Besoin et problème** | Les équipes reçoivent des documents par plusieurs canaux, puis doivent les classer, les retrouver et vérifier qu’ils n’ont pas été altérés. Sans historique ni sources, répondre à une question ou prouver qu’une pièce a été archivée devient difficile. |
+| **Réponse apportée** | HESYD-ONE rassemble la réception (WhatsApp, dépôt web et Drive), le classement et l’archivage. Un document n’est déclaré archivé qu’après vérification de son empreinte. L’agent répond aux questions à partir des fichiers indexés, cite les pièces utilisées et peut produire un livrable. |
+| **Technologies et choix techniques** | Next.js et React portent l’application; Prisma et PostgreSQL organisent les données et les accès; Google Document AI traite les documents; pgvector sert à la recherche. WhatsApp Cloud API, n8n et Docker complètent les intégrations et le déploiement. |
+| **Résultats vérifiables** | Le dépôt documente 63 routes API et 14 outils accessibles à l’agent. Un test vérifie l’isolation entre organisations. Le guide de déploiement fixe des objectifs de reprise après incident : remise en service sous 8 h et perte de données limitée à 24 h. |
 | **Accès** | [MonsterH-H/HESYD-ONE](https://github.com/MonsterH-H/HESYD-ONE) |
 
 <br/>
@@ -129,12 +128,11 @@ Cinq projets détaillés ici. Les quinze autres sont au [catalogue](#catalogue).
 
 | | |
 |:--|:--|
-| **Problème** | Les no-shows coûtent cher aux prestataires de services, et les agendas classiques ne sécurisent pas les créneaux. |
-| **Solution** | Une plateforme multi-tenant de réservation en ligne. Chaque créneau est validé par un acompte ou une empreinte bancaire. Le client réserve sans créer de compte, les pénalités sont configurables, les litiges et remboursements sont tracés, l'espace client fonctionne sans mot de passe. |
-| **Flux** | `Créneau` → `Acompte ou empreinte bancaire` → `Réservation garantie` → `Pénalités` → `Litiges et remboursements` |
-| **Réalisé** | 76 modèles Prisma, environ 97 fichiers de routes API<br/>Double réservation impossible, garantie en base par une contrainte d'exclusion PostgreSQL (`btree_gist`)<br/>9 parcours critiques testés de bout en bout avec Playwright, plus des tests unitaires et d'intégration<br/>2FA TOTP, Google OAuth avec synchronisation Calendar<br/>RGPD : export des données et anonymisation différée (`EvidenceArchive`)<br/>Changements d'heure testés : Ramadan à Casablanca, retour à l'heure d'hiver à New York |
-| **Limites** | Produit fonctionnel. La mise en production attend la validation des intégrations live (matrice de réception `docs/FINAL_CDC_MATRIX.md`). |
-| **Outils** | `Next.js 16` `TypeScript strict` `Prisma 6` `PostgreSQL (Neon)` `Polar (webhooks Svix signés)` `Resend` `WhatsApp` `Web Push VAPID` `Bun` `Playwright` |
+| **Besoin et problème** | Un créneau réservé puis non honoré représente du temps perdu pour un prestataire. Un agenda classique enregistre le rendez-vous, mais ne recueille pas l’engagement financier qui peut réduire ce risque ni la preuve des conditions acceptées. |
+| **Réponse apportée** | Valify propose une réservation publique sans compte client. Le prestataire peut demander un acompte ou une empreinte bancaire, définir ses règles d’annulation et suivre paiements, remboursements et litiges. Les disponibilités sont contrôlées côté serveur pour empêcher deux réservations incompatibles. |
+| **Technologies et choix techniques** | Next.js et TypeScript servent l’interface et les API; Prisma et PostgreSQL portent les réservations et leurs contraintes; Polar traite les paiements de réservation et les abonnements SaaS; Resend, WhatsApp et Web Push couvrent les notifications. Playwright vérifie les parcours de réservation. |
+| **Résultats vérifiables** | Le parcours permet au client de choisir un service et un créneau, puis de confirmer avec l’engagement demandé et les conditions d’annulation affichées. Neuf parcours critiques sont testés de bout en bout; une contrainte en base empêche les doubles réservations. Le produit couvre aussi Google Calendar et l’export des données personnelles. |
+| **Limites** | Les fonctions principales sont implémentées et testées. Le lancement avec les paiements réels reste soumis à la configuration et à la validation des intégrations externes; le projet ne revendique pas encore de baisse mesurée des rendez-vous manqués. |
 | **Accès** | Code confidentiel. Démonstration sur demande. |
 
 <br/>
@@ -149,11 +147,10 @@ Cinq projets détaillés ici. Les quinze autres sont au [catalogue](#catalogue).
 
 | | |
 |:--|:--|
-| **Problème** | Produire des campagnes cohérentes, multi-canaux et multilingues, arabe compris, demande des compétences et des outils qu'une très petite entreprise n'a pas. |
-| **Solution** | Un SaaS freemium qui génère affiches, vidéos, voix off et textes en quelques minutes, dans le ton de la marque. Un assistant conversationnel lance de vraies générations : décision en JSON strict, débit de crédits atomique, remboursement en cas d'échec. |
-| **Flux** | `Brief en FR, EN ou AR` → `4 studios de génération` → `5 modèles NVIDIA NIM` → `Montage ffmpeg` → `Facturation Polar` |
-| **Réalisé** | 4 studios réels : image en plusieurs variantes, vidéo (texte vers vidéo, image vers vidéo), voix off, textes par canal<br/>5 modèles NVIDIA NIM en production (flux.1-schnell, cosmos-predict2.5, magpie-tts, llama-3.1-nemotron-70b, llama-3.2-11b-vision), avec modèles de repli vérifiés<br/>Interface FR, EN, AR avec RTL complet, parité des traductions auditée (0 écart)<br/>Montage ffmpeg : multi-scènes, transitions, mixage audio<br/>Facturation Polar (Merchant of Record), webhooks signés, idempotence<br/>CI GitHub Actions (lint, tsc, audit i18n, build standalone), Docker non-root avec healthcheck |
-| **Outils** | `Next.js 16` `Prisma` `PostgreSQL (Neon)` `NextAuth v4` `Google OAuth` `2FA TOTP` `UploadThing` `Upstash Redis` `z-ai-web-dev-sdk` `NVIDIA NIM` |
+| **Besoin et problème** | Une petite équipe qui prépare une campagne doit souvent produire séparément textes, visuels, vidéos et voix off, puis adapter chaque contenu à sa marque, à ses canaux et à ses langues. L’arabe ajoute une contrainte d’écriture de droite à gauche. |
+| **Réponse apportée** | OmniAd AI transforme un brief en contenus publicitaires dans quatre espaces de création : image, vidéo, voix off et texte. L’assistant peut lancer les mêmes générations que les studios. Le système modère les demandes, débite les crédits de façon cohérente et les restitue si une génération échoue. |
+| **Technologies et choix techniques** | Next.js et React forment le produit web; Prisma et PostgreSQL stockent comptes, générations et crédits; NVIDIA NIM fournit les modèles de génération; ffmpeg assemble les vidéos; Polar gère les recharges. UploadThing et Redis complètent le stockage et les tâches. |
+| **Résultats vérifiables** | Les quatre studios et cinq modèles NVIDIA NIM sont intégrés. L’interface existe en français, anglais et arabe avec une vérification de parité des traductions; les générations suivent leur état jusqu’au résultat et disposent d’un mécanisme de remboursement en cas d’échec. |
 | **Accès** | Code confidentiel. Démonstration sur demande. |
 
 <br/>
@@ -168,12 +165,10 @@ Cinq projets détaillés ici. Les quinze autres sont au [catalogue](#catalogue).
 
 | | |
 |:--|:--|
-| **Problème** | Les utilisateurs métier ne savent pas écrire le DAX nécessaire pour interroger les modèles sémantiques Power BI, et les LLM inventent des chiffres quand rien ne les contraint. |
-| **Solution** | L'utilisateur pose sa question en langage naturel. Un pipeline planifie la requête DAX, l'exécute sur le modèle sémantique réel, interprète les résultats sans avoir le droit d'inventer, puis valide chaque affirmation contre les données. Le score de confiance est calculé de façon déterministe, le LLM ne le devine pas. |
-| **Flux** | `Question` → `Plan DAX` → `Exécution sur Fabric` → `Interprétation` → `Validation anti-hallucination` → `Export PDF, PowerPoint, CSV` |
-| **Réalisé, v3 (publique)** | 183 fichiers, environ 36 500 lignes, 23 pages, 64 composants<br/>14 entités sous RLS, 13 UDFs côté serveur<br/>Pipeline NL vers DAX en 7 étapes avec garde-fou anti-hallucination |
-| **Réalisé, v4 (privée)** | 18 modèles Prisma, pipeline en 4 étapes (plan, exécution multi-DAX, interprétation, validation)<br/>Module d'administration de 7 pages<br/>Exports PDF (sommaire, pagination), PowerPoint natif éditable, CSV RFC 4180<br/>Authentification Microsoft Entra ID via NextAuth, adaptateur de démonstration Contoso en mémoire<br/>Moteur de graphiques SVG développé sur mesure |
-| **Outils** | `React` `Azure OpenAI` `Fabric SQL` `RLS` `NextAuth` `pdf-lib` |
+| **Besoin et problème** | Les équipes métier veulent interroger leurs données dans Microsoft Fabric sans écrire de requêtes DAX. Une réponse générée par un LLM n’est utile que si les calculs viennent réellement du modèle sémantique et si les conclusions ne dépassent pas ce que les données permettent d’affirmer. |
+| **Réponse apportée** | AIDIP accepte une question en langage courant, prépare une ou plusieurs requêtes DAX, les exécute sur le modèle Fabric, puis confronte l’interprétation aux résultats obtenus. La version publique v3 et la version privée v4 sont présentées séparément, car elles n’ont pas le même périmètre. |
+| **Technologies et choix techniques** | La v3 publique s’appuie sur React et Microsoft Fabric; elle génère puis exécute du DAX, le langage de requête des modèles Power BI. Azure OpenAI interprète les résultats et RLS applique les droits d’accès aux données. La v4 privée ajoute NextAuth avec Microsoft Entra ID, un moteur de graphiques SVG et des exports produits avec pdf-lib. |
+| **Résultats vérifiables** | La v3 comprend 23 pages, 64 composants, 14 entités protégées par RLS et un pipeline de génération DAX en sept étapes. La v4 ajoute un espace d’administration de sept pages et des exports PDF, PowerPoint éditable et CSV. |
 | **Accès** | v3 : [MonsterH-H/aidip-generator](https://github.com/MonsterH-H/aidip-generator). v4 : code confidentiel. |
 
 <br/>
@@ -188,11 +183,10 @@ Cinq projets détaillés ici. Les quinze autres sont au [catalogue](#catalogue).
 
 | | |
 |:--|:--|
-| **Problème** | Les directions ont besoin de KPI, de prévisions et de détection d'anomalies traçables. Un chiffre sorti d'une boîte noire ne leur sert pas. |
-| **Solution** | Un backend Python/FastAPI qui couvre la chaîne entière : data engineering, KPI déterministes, machine learning, scénarios, puis un assistant IA ancré dans les données. Chaque chiffre remonte à sa source et l'IA n'en invente aucun. |
-| **Flux** | `Datasets Olist et Retail II` → `Data engineering` → `KPI déterministes` → `7 modèles entraînés` → `Scénarios` → `Assistant IA ancré` |
-| **Réalisé** | 7 modèles entraînés livrés en `joblib`, utilisables sans ré-entraînement<br/>2 datasets réels versionnés : Olist (565 328 lignes) et UCI Online Retail II (1 067 371 lignes), soit plus de 1,6 M de lignes<br/>196 tests passants, CI GitHub Actions autonome, résultats reproductibles (`random_state=42`, environ 3,6 min)<br/>OpenAPI : 64 paths, 72 opérations<br/>Import générique de datasets (CSV ou XLSX, colonnes en français ou en anglais)<br/>Cas d'usage : prévision, anomalies, segmentation, risque de livraison<br/>RBAC, jeton inter-services, notifications Resend, stockage UploadThing |
-| **Outils** | `FastAPI` `pandas` `scikit-learn` `Resend` `UploadThing` `Pytest` `GitHub Actions` |
+| **Besoin et problème** | Pour décider à partir des ventes, une direction doit pouvoir passer des données brutes aux indicateurs, aux prévisions et aux alertes, tout en comprenant d’où vient chaque chiffre. Une réponse d’IA sans calcul traçable ne permet pas de vérifier une décision. |
+| **Réponse apportée** | EDIA ingère des jeux de données, calcule des indicateurs clés (KPI) avec des règles déterministes, entraîne des modèles de prévision, d’anomalie et de segmentation, puis propose des scénarios. L’assistant formule des explications à partir de ces résultats; les données importées en CSV ou Excel peuvent aussi être en français ou en anglais. |
+| **Technologies et choix techniques** | FastAPI expose les traitements; pandas prépare les données; scikit-learn entraîne les modèles, livrés en joblib; Pytest et GitHub Actions vérifient leur reproductibilité. Resend et UploadThing servent respectivement aux notifications et au stockage de fichiers. |
+| **Résultats vérifiables** | Le dépôt contient deux jeux de données réels totalisant plus de 1,6 million de lignes, sept modèles entraînés réutilisables et 196 tests réussis. L’API documente 64 chemins et 72 opérations; les expériences peuvent être reproduites avec une graine fixe. |
 | **Accès** | Code confidentiel. Démonstration sur demande. |
 
 <br/>
@@ -203,7 +197,7 @@ Cinq projets détaillés ici. Les quinze autres sont au [catalogue](#catalogue).
 
 ## Catalogue
 
-Vingt projets en cinq catégories. Les cinq réalisations phares y figurent avec un renvoi vers leur fiche.
+Le catalogue présente les quinze autres projets; les cinq fiches phares sont détaillées dans la section précédente.
 
 <br/>
 
@@ -219,15 +213,15 @@ Modélisation, pipelines de données, restitution décisionnelle.
 
 | | |
 |:--|:--|
-| **Problème** | Une direction commerciale doit suivre ventes et achats dans un modèle unique et fiable, pas dans des fichiers dispersés. |
-| **Solution** | Un modèle en étoile alimenté par un ETL Power Query (M), avec des rapports interactifs pour la direction commerciale. |
-| **Réalisé** | 29 mesures DAX, 4 relations<br/>Tables de faits : 2 540 ventes et 2 507 achats<br/>14 produits, 50 clients, 3 régions<br/>2 rapports, 4 pages, 12 visuels |
-| **Outils** | `Power BI` `DAX` `Power Query` `Excel` |
+| **Besoin et problème** | Les fichiers de ventes et d’achats couvrent plusieurs sources et périodes. Sans consolidation ni définitions communes, chaque personne peut recalculer les indicateurs différemment et comparer des chiffres qui ne reposent pas sur le même modèle. |
+| **Réponse apportée** | Le projet assemble les sources avec Power Query, organise ventes et achats dans un modèle en étoile, puis transforme les indicateurs commerciaux en mesures DAX. Les rapports permettent de parcourir chiffre d’affaires, bénéfices, remises et résultats par canal, produit, client ou région. |
+| **Technologies et choix techniques** | Excel fournit les fichiers sources; Power Query nettoie et assemble les sources; Power BI porte le modèle et les rapports; DAX calcule les indicateurs métier. |
+| **Résultats vérifiables** | Le modèle comprend 29 mesures DAX et quatre relations actives. Les tables de faits recensent 2 540 ventes et 2 507 achats; les rapports couvrent 14 produits, 50 clients et trois régions, sur quatre pages avec 12 visuels. |
 | **Accès** | [MonsterH-H/Business-Inteligence](https://github.com/MonsterH-H/Business-Inteligence) |
 
 #### EDIA
 
-Fiche détaillée : [Réalisations phares](#edia). 7 modèles livrés, plus de 1,6 M de lignes, 196 tests, 64 paths d'API. Outils : `FastAPI` `scikit-learn`. Code confidentiel.
+Fiche détaillée : [Réalisations phares](#edia). Plus de 1,6 M de lignes traitées, sept modèles réutilisables et 196 tests réussis. Code confidentiel.
 
 <br/>
 
@@ -243,11 +237,11 @@ Modèles prédictifs, explicabilité, vision par ordinateur.
 
 | | |
 |:--|:--|
-| **Problème** | Évaluer un risque de cancer à partir de nombreux paramètres cliniques demande un outil d'aide à la décision structuré, dont les prédictions restent traçables. |
-| **Solution** | Un modèle qui transforme 23 paramètres cliniques en un niveau de risque sur 3 classes, servi par une application Streamlit avec trace d'audit des prédictions. |
-| **Réalisé** | 23 variables d'entrée, 3 classes de risque<br/>Modèle exporté en `.pkl` et en ONNX<br/>Application Streamlit de 7 pages avec registre SQL<br/>Métriques du notebook : test 1,00, validation croisée 1,0000, baseline 0,3650<br/>Application déployée, accès protégé |
-| **Limites** | Le dataset public a des classes très séparables, ce qui explique les scores parfaits. La revalidation est documentée. |
-| **Outils** | `Python` `Streamlit` `scikit-learn` `ONNX` `SQLAlchemy` |
+| **Besoin et problème** | Le projet explore comment présenter une estimation de risque à partir de paramètres cliniques sans réduire le résultat à une valeur opaque. Il s’agit d’un travail sur un jeu de données public, pas d’un outil validé pour poser un diagnostic médical. |
+| **Réponse apportée** | Le modèle classe les entrées en trois niveaux de risque à partir de 23 variables. L’application Streamlit affiche les facteurs analysés, conserve un journal des prédictions et permet de consulter l’historique des résultats. Elle est présentée comme une aide à l’analyse qui doit être vérifiée par un professionnel de santé. |
+| **Technologies et choix techniques** | Python et scikit-learn portent le modèle; Streamlit fournit les pages d’analyse et de saisie; SQLAlchemy journalise les prédictions; ONNX permet d’exporter le modèle. |
+| **Résultats vérifiables** | Le dépôt contient le modèle exporté en pickle et ONNX, une application Streamlit de sept pages et un historique d’audit CSV. Sur le jeu public, le score de test et la validation croisée atteignent 1,00; les classes étant très séparables, ce score ne démontre pas une performance clinique. |
+| **Limites** | Prototype d’aide à l’analyse uniquement. Les résultats ne constituent pas un diagnostic et le modèle n’est pas validé en contexte clinique. |
 | **Accès** | [MonsterH-H/Cancerdetesction](https://github.com/MonsterH-H/Cancerdetesction) |
 
 <a id="petola"></a>
@@ -258,10 +252,11 @@ Modèles prédictifs, explicabilité, vision par ordinateur.
 
 | | |
 |:--|:--|
-| **Problème** | Prévoir la production pétrolière journalière d'un puits ne suffit pas : il faut aussi savoir quelles variables la déterminent. |
-| **Solution** | Un modèle explicable (XAI) à partir de 7 paramètres de puits, avec des scénarios de prévision. |
-| **Réalisé** | Importance des variables calculée avec SHAP<br/>3 scénarios de prévision<br/>Dataset de 15 641 lignes, tests pytest<br/>Application déployée, accès protégé |
-| **Outils** | `Python` `Streamlit` `scikit-learn` `SHAP` `Plotly` |
+| **Besoin et problème** | Estimer la production journalière d’un puits ne répond pas à toutes les questions d’un opérateur : il faut aussi voir quels paramètres d’exploitation pèsent dans l’estimation et comparer plusieurs hypothèses. |
+| **Réponse apportée** | Petola utilise sept paramètres de puits pour estimer la production, puis affiche une explication SHAP des variables influentes. Le module de prévision compare trois scénarios — optimiste, nominal et pessimiste — et l’application rassemble aussi des vues d’analyse historique. |
+| **Technologies et choix techniques** | Python et scikit-learn portent le modèle Random Forest; Streamlit fournit l’application; SHAP explique les prédictions; Plotly et les outils d’analyse statistique servent aux graphiques et à l’exploration. |
+| **Résultats vérifiables** | Le dépôt inclut un jeu de 15 641 observations, une entrée de prédiction à sept paramètres, trois scénarios de prévision et des tests pytest. Le score de performance du modèle n’est pas publié, faute de validation croisée documentée. |
+| **Limites** | Le portfolio ne revendique donc pas de taux de précision pour ce modèle. |
 | **Accès** | [MonsterH-H/Petola](https://github.com/MonsterH-H/Petola) |
 
 <a id="mvtec"></a>
@@ -272,11 +267,11 @@ Modèles prédictifs, explicabilité, vision par ordinateur.
 
 | | |
 |:--|:--|
-| **Problème** | Le contrôle qualité visuel de transistors doit repérer des défauts rares, sans exemples de chaque type d'anomalie. |
-| **Solution** | Une implémentation de PatchCore : extraction de caractéristiques par patch, banque de mémoire de patchs normaux, détection par distance kNN. |
-| **Réalisé** | Extracteur EfficientNet-B0 (patchs 7×7×192)<br/>Banque de mémoire d'environ 20 000 patchs<br/>Cartes de chaleur d'anomalie par patch<br/>Analyse de la courbe d'apprentissage (PDF, 4 396 lignes) |
-| **Limites** | Travail de recherche. Aucun produit déployé. |
-| **Outils** | `Python` `TensorFlow` `scikit-learn` `OpenCV` |
+| **Besoin et problème** | Sur une ligne de fabrication, l’inspection manuelle des transistors peut être lente et dépend de la capacité à reconnaître des défauts rares. Pour certaines anomalies, on dispose surtout d’exemples de pièces normales, pas d’un catalogue complet de défauts. |
+| **Réponse apportée** | Cette étude reproduit PatchCore sur la catégorie « transistor » du jeu MVTec AD. Le modèle apprend les motifs des images normales, puis signale les écarts par la distance entre représentations locales d’image. |
+| **Technologies et choix techniques** | Python prépare les images; EfficientNet-B0 extrait les caractéristiques; TensorFlow exécute le réseau; OpenCV traite les images; scikit-learn fournit les recherches de voisins utilisées par PatchCore. |
+| **Résultats vérifiables** | L’implémentation construit une mémoire d’environ 20 000 patches normaux et produit des cartes de chaleur pour localiser les zones atypiques. Le travail comprend aussi une analyse de la courbe d’apprentissage. |
+| **Limites** | Projet académique de recherche, niveau prototype. Aucun produit industriel ni résultat de déploiement n’est revendiqué. |
 | **Accès** | [MonsterH-H/mvtec-transistor](https://github.com/MonsterH-H/mvtec-transistor) |
 
 <br/>
@@ -287,15 +282,15 @@ Agents, LLM contraints par la donnée, génération multimédia.
 
 #### HESYD-ONE
 
-Fiche détaillée : [Réalisations phares](#hesyd-one). Agent documentaire multi-tenant, réponses sourcées, archivage sur preuve. Outils : `Next.js` `Prisma` `z-ai SDK` `Docker`. Code : [MonsterH-H/HESYD-ONE](https://github.com/MonsterH-H/HESYD-ONE).
+Fiche détaillée : [Réalisations phares](#hesyd-one). Réception multicanale, archivage vérifié et réponses qui renvoient aux documents sources. Code : [MonsterH-H/HESYD-ONE](https://github.com/MonsterH-H/HESYD-ONE).
 
 #### AIDIP
 
-Fiche détaillée : [Réalisations phares](#aidip). BI conversationnelle sur Fabric, pipeline NL vers DAX ancré dans les données. Outils : `React` `Azure OpenAI` `Fabric SQL` `RLS`. Code : [MonsterH-H/aidip-generator](https://github.com/MonsterH-H/aidip-generator) (v3).
+Fiche détaillée : [Réalisations phares](#aidip). Questions en langage courant, requêtes DAX exécutées sur Fabric et réponses reliées aux données. Code public v3 : [MonsterH-H/aidip-generator](https://github.com/MonsterH-H/aidip-generator); v4 confidentielle.
 
 #### OmniAd AI
 
-Fiche détaillée : [Réalisations phares](#omniad). Génération publicitaire en FR, EN et AR avec RTL. Outils : `Next.js` `NVIDIA NIM` `ffmpeg` `Polar`. Code confidentiel.
+Fiche détaillée : [Réalisations phares](#omniad). Quatre studios pour créer textes, images, vidéos et voix off en français, anglais et arabe. Code confidentiel.
 
 <a id="prompt-lab"></a>
 
@@ -305,10 +300,11 @@ Fiche détaillée : [Réalisations phares](#omniad). Génération publicitaire e
 
 | | |
 |:--|:--|
-| **Problème** | Il est difficile de savoir, mesures à l'appui, quelle technique de prompt améliore une réponse de LLM. |
-| **Solution** | Un comparateur en temps réel : un prompt de base et un prompt construit avec une technique s'affichent côte à côte, avec leurs métriques de tokens. |
-| **Réalisé** | 6 techniques codées : Zero-Shot, Few-Shot, Chain-of-Thought, Role, Structured Output, ReAct<br/>5 tâches prédéfinies<br/>Comptage de tokens réel |
-| **Outils** | `React 19` `Vite` `Claude API` |
+| **Besoin et problème** | Il est difficile de voir si une consigne plus précise change la réponse d’un modèle ou consomme simplement davantage de texte. |
+| **Réponse apportée** | Le laboratoire envoie côte à côte une demande de base et la même tâche formulée avec une technique choisie. La personne peut comparer les textes produits et leur consommation de tokens, sans confondre cette comparaison visuelle avec un benchmark automatique de qualité. |
+| **Technologies et choix techniques** | React 19 et Vite construisent l’interface; l’API Claude d’Anthropic produit les réponses; un compteur affiche les tokens utilisés, les unités de texte traitées par le modèle. |
+| **Résultats vérifiables** | Six techniques sont disponibles — Zero-Shot, Few-Shot, Chain-of-Thought, Role Prompting, Structured Output et ReAct — avec cinq tâches prédéfinies et un comptage de tokens en temps réel. |
+| **Limites** | L’outil montre les différences de réponses et de coût; il ne calcule pas de note objective de qualité. |
 | **Accès** | [MonsterH-H/prompt-engineering-lab](https://github.com/MonsterH-H/prompt-engineering-lab) |
 
 <br/>
@@ -325,10 +321,10 @@ Spring Boot, microservices, temps réel, modèles embarqués.
 
 | | |
 |:--|:--|
-| **Problème** | La gestion d'un établissement scolaire (élèves, personnels, documents) repose souvent sur des outils séparés et peu sécurisés. |
-| **Solution** | Un ERP scolaire : backend Spring Boot sécurisé et portail Angular 19. |
-| **Réalisé** | 117 endpoints, 30 entités, 20 services, 35 DTOs<br/>JWT avec refresh token et RBAC, documentation Swagger/OpenAPI<br/>Exports PDF (OpenPDF) et CSV<br/>Docker et Compose sur 3 services<br/>Frontend de 64 composants, rendu serveur (SSR), interface en arabe et en anglais |
-| **Outils** | `Spring Boot 3.4.1` `JPA` `Angular 19` `PostgreSQL` `Docker` |
+| **Besoin et problème** | Un établissement doit coordonner inscriptions, cours, emplois du temps, devoirs, présences et évaluations. Si l’administration, les enseignants et les élèves utilisent des outils séparés, chacun travaille avec une partie différente de l’information. |
+| **Réponse apportée** | SchoolGest réunit ces opérations dans un portail scolaire avec des espaces distincts pour l’administration, les enseignants et les élèves. L’API gère les données et les droits; le portail permet de consulter ou mettre à jour les informations selon le rôle. |
+| **Technologies et choix techniques** | Spring Boot et JPA construisent l’API; PostgreSQL conserve les dossiers scolaires; Angular 19 porte l’interface; JWT avec renouvellement et RBAC contrôlent les accès. Docker Compose rassemble les services. |
+| **Résultats vérifiables** | L’API expose 117 points d’accès pour les opérations scolaires. Le portail distingue les espaces d’administration, d’enseignement et d’élève, fonctionne en arabe et en anglais et produit des exports PDF et CSV; son contrat est publié avec Swagger/OpenAPI. |
 | **Accès** | [Backend](https://github.com/MonsterH-H/SchoolGest-backend) et [frontend](https://github.com/MonsterH-H/SchoolGest-frontend) |
 
 <a id="fleetopti"></a>
@@ -339,10 +335,10 @@ Spring Boot, microservices, temps réel, modèles embarqués.
 
 | | |
 |:--|:--|
-| **Problème** | Une flotte logistique doit anticiper plutôt que suivre : les modèles entraînés doivent tourner dans le backend de production. |
-| **Solution** | Un backend SaaS de logistique prédictive qui embarque l'inférence ONNX des modèles entraînés. |
-| **Réalisé** | ONNX Runtime 1.18 embarqué dans Spring Boot<br/>PostGIS (hibernate-spatial, JTS), WebSocket, Kafka Streams<br/>Spring AI (Mistral), moteur de règles Drools<br/>TOTP, notifications Twilio, PDFBox et ZXing<br/>6 guides dans `doc/`, collection Postman et suite de requêtes HTTP |
-| **Outils** | `Java 17` `Spring Boot 3.4.1` `Spring Security` `PostgreSQL 17` |
+| **Besoin et problème** | Les données de maintenance et de position d’une flotte n’aident à anticiper les pannes que si les modèles entraînés peuvent être appelés par le logiciel qui gère les véhicules. Le travail porte donc aussi sur le passage du notebook à un service exploitable par le backend. |
+| **Réponse apportée** | FleetOpti AI relie les modèles de maintenance et d’émissions au backend Java sous forme ONNX. Le service rassemble aussi les positions, événements et règles métier afin que les fonctions de prédiction s’intègrent au suivi de flotte. |
+| **Technologies et choix techniques** | Spring Boot et Java exposent les fonctions; ONNX Runtime exécute les modèles exportés dans le backend; PostgreSQL avec PostGIS gère les données géographiques; Kafka Streams et WebSocket transportent les événements; Drools formalise des règles métier. |
+| **Résultats vérifiables** | Les modèles exportés sont exécutés directement par le backend Java. Le dépôt machine learning public fournit les notebooks et modèles; le backend privé contient une collection Postman et des exemples de requêtes pour explorer les API. |
 | **Accès** | Backend confidentiel. Partie ML publique : [MonsterH-H/fleetopti_ml](https://github.com/MonsterH-H/fleetopti_ml). |
 
 <a id="servicediscovery"></a>
@@ -353,10 +349,11 @@ Spring Boot, microservices, temps réel, modèles embarqués.
 
 | | |
 |:--|:--|
-| **Problème** | Pour que des microservices communiquent sans adresses écrites en dur, il faut une topologie de découverte et de routage. |
-| **Solution** | Un serveur Eureka, une Cloud Gateway et des appels inter-services avec OpenFeign. |
-| **Réalisé** | 4 modules Maven, 14 endpoints<br/>OpenFeign inter-services (`lb://`)<br/>Une base de données par service<br/>README pédagogique de 11 Ko |
-| **Outils** | `Spring Boot 4.0.6` `Spring Cloud 2025.1.1` |
+| **Besoin et problème** | Quand un service appelle un autre en utilisant une adresse écrite en dur, un changement de port ou de machine peut interrompre la communication. Ce projet met en pratique une façon de retrouver les services sans maintenir chaque adresse dans le code client. |
+| **Réponse apportée** | Un registre Eureka recense les services disponibles, une API Gateway reçoit et route les requêtes, et OpenFeign permet à un service d’en appeler un autre à partir de son nom. Les services gardent leurs bases de données séparées. |
+| **Technologies et choix techniques** | Spring Boot construit les applications; Spring Cloud fournit Eureka et Gateway; OpenFeign réalise les appels inter-services avec équilibrage via `lb://`. |
+| **Résultats vérifiables** | Le projet contient quatre modules Maven et 14 endpoints. Les services « students » et « courses » communiquent via Feign tout en conservant chacun leur base; le README explique l’architecture à partir du code. |
+| **Limites** | Projet de démonstration pédagogique, pas un service présenté comme déployé en production. |
 | **Accès** | [MonsterH-H/ServiceDiscovery](https://github.com/MonsterH-H/ServiceDiscovery) |
 
 <a id="evignette"></a>
@@ -369,10 +366,11 @@ Réalisé pendant le stage chez BITS, Casablanca.
 
 | | |
 |:--|:--|
-| **Problème** | La vignette automobile concerne les citoyens, les agents et l'administration, avec des achats, des tarifs et des contrôles à tracer. |
-| **Solution** | Un système de vignettes automobiles à trois rôles : citoyen, agent, administrateur. |
-| **Réalisé** | 3 rôles, authentification JWT<br/>Achat, tarifs, PDF avec QR code<br/>Signalements et audit<br/>Documentation Swagger, Dockerfile |
-| **Outils** | `Spring Boot 3` `PostgreSQL` |
+| **Besoin et problème** | La gestion d’une vignette automobile implique plusieurs intervenants : le citoyen renseigne son véhicule et sa demande, tandis que les agents et l’administration doivent contrôler les dossiers et suivre les signalements. |
+| **Réponse apportée** | Réalisé durant le stage chez BITS à Casablanca, le système sépare les espaces citoyen, agent et administrateur. Il couvre les véhicules, le calcul de tarif, le suivi des demandes, les rappels et la production d’un document avec QR code; les actions sont journalisées. |
+| **Technologies et choix techniques** | Spring Boot et Java construisent l’API; Spring Security et JWT gèrent les profils; PostgreSQL conserve dossiers et traces; Angular porte l’interface web. |
+| **Résultats vérifiables** | L’application couvre trois rôles, le traitement des demandes, les signalements et l’audit. Le dépôt fournit la documentation Swagger/OpenAPI et un Dockerfile. |
+| **Limites** | Le dépôt décrit un paiement simulé. Le portfolio ne présente donc pas ce projet comme une solution de paiement public en production. |
 | **Accès** | Code confidentiel, projet de stage. |
 
 <a id="alphaengine"></a>
@@ -383,10 +381,11 @@ Réalisé pendant le stage chez BITS, Casablanca.
 
 | | |
 |:--|:--|
-| **Problème** | Un terminal de trading doit séparer strictement les ordres de démonstration des ordres réels, et encadrer le risque avant chaque envoi. |
-| **Solution** | Un terminal de trading 100 % réel, sans simulation : adaptateurs courtiers, Risk Gate déterministe, laboratoire statistique. |
-| **Réalisé** | 73 routes API<br/>Adaptateurs Binance (3 types de signature, OCO native) et Alpaca<br/>Isolation DÉMO / LIVE au niveau du transport (40 contrôles)<br/>6 stratégies, 7 méthodes de dimensionnement de position<br/>Walk-forward et Monte Carlo<br/>214 tests unitaires, CI à 6 jobs, images publiées sur GHCR |
-| **Outils** | `Next.js 16` `Prisma` `Docker` `GitHub Actions` |
+| **Besoin et problème** | Un terminal de trading doit distinguer sans ambiguïté les ordres de démonstration et ceux qui engagent de vrais fonds. Il doit aussi bloquer les ordres qui dépassent les règles de risque avant de les transmettre au courtier. |
+| **Réponse apportée** | AlphaEngine se connecte aux environnements LIVE et aux environnements de test officiels de Binance ou Alpaca. Les prix, soldes et exécutions viennent du courtier; une Risk Gate déterministe contrôle chaque ordre et les protections d’exécution sont transmises au courtier. |
+| **Technologies et choix techniques** | Next.js 16 et TypeScript portent le terminal et ses API; Prisma conserve les ordres; des adaptateurs séparent les courtiers et leurs environnements; Docker et GitHub Actions servent au déploiement et aux vérifications. |
+| **Résultats vérifiables** | Le projet expose 73 routes API, propose six stratégies et sept méthodes de dimensionnement, et contient 214 tests unitaires ainsi qu’une CI à six jobs. Le laboratoire couvre walk-forward et Monte Carlo; ces essais ne constituent pas une garantie de performance réelle. |
+| **Limites** | Aucun gain de trading n’est revendiqué. Les résultats de backtest ou d’environnement de démonstration ne prédisent pas les résultats en réel. |
 | **Accès** | Code confidentiel. |
 
 <br/>
@@ -397,7 +396,7 @@ Produits complets, de la base de données à l'interface, parfois jusqu'au mobil
 
 #### Valify
 
-Fiche détaillée : [Réalisations phares](#valify). SaaS de réservation sécurisé par acompte, multi-tenant strict. Outils : `Next.js 16` `Prisma` `Polar`. Code confidentiel.
+Fiche détaillée : [Réalisations phares](#valify). Réservation sans compte client, acompte ou empreinte bancaire, et suivi des conditions d’annulation. Code confidentiel.
 
 <a id="postula"></a>
 
@@ -407,11 +406,11 @@ Fiche détaillée : [Réalisations phares](#valify). SaaS de réservation sécur
 
 | | |
 |:--|:--|
-| **Problème** | Chercher un emploi et prospecter des clients obligent à jongler entre CV, relances et messageries, sans vue d'ensemble. |
-| **Solution** | Un SaaS à double usage, recherche d'emploi et acquisition client, avec un hub de communication multicanal et une boîte de réception unifiée. |
-| **Réalisé** | CV versionnés et matching explicable<br/>CRM avec pipeline en 9 étapes<br/>Hub à 4 canaux (WAHA, Meta Cloud, e-mail, Telegram), consentements vérifiés<br/>Automatisations n8n (webhooks HMAC)<br/>1 100 tests documentés (CI), 19 tests E2E Playwright, 175 parcours E2E en Python<br/>Argon2id avec contrôle HIBP, RBAC à 3 rôles, 36 pages |
-| **Limites** | En développement actif, pas encore terminé. |
-| **Outils** | `Next.js 16` `Prisma` `Polar` `n8n` |
+| **Besoin et problème** | Une personne qui cherche un emploi doit suivre CV, offres, candidatures et relances; une activité de prospection commerciale demande en parallèle la gestion des entreprises, contacts et conversations. Mélanger ces suivis rend difficile de savoir quelle action appartient à quel objectif. |
+| **Réponse apportée** | Postula rassemble ces deux usages dans un compte, mais les sépare en espaces Carrière et Commercial. Le premier suit le profil, les CV, les offres et les candidatures; le second gère prospects, contacts, campagnes et missions. Les suggestions d’IA restent vérifiables et les envois demandent les consentements requis. |
+| **Technologies et choix techniques** | Next.js 16 et Prisma structurent l’application et ses données; Polar gère la facturation; n8n orchestre certaines automatisations; le hub relie WhatsApp, e-mail et Telegram avec des statuts et consentements contrôlés. |
+| **Résultats vérifiables** | La version documentée couvre les deux espaces et une boîte de réception multicanale. La CI du dépôt indique 1 825 tests réussis et vérifie également les parcours E2E, la compilation et les migrations. |
+| **Limites** | Le projet est encore en développement actif; cette fiche décrit les fonctions déjà présentes, pas une version finale. |
 | **Accès** | Code confidentiel. |
 
 <a id="amdrh"></a>
@@ -422,10 +421,10 @@ Fiche détaillée : [Réalisations phares](#valify). SaaS de réservation sécur
 
 | | |
 |:--|:--|
-| **Problème** | Former et certifier des arbitres de handball, avec la FRMHB comme partenaire, demande une plateforme de cours, de suivi et de preuves de compétence. |
-| **Solution** | Une plateforme e-learning avec rôles, permissions fines, certificats vérifiables et échanges en temps réel. |
-| **Réalisé** | 72 routes API documentées, 30 modèles Prisma (Neon)<br/>5 rôles et plus de 40 permissions granulaires<br/>Certificats PDF avec vérification par QR code, badges sur 4 niveaux<br/>Messagerie, forum et temps réel avec Socket.IO<br/>Import CSV, journaux d'audit<br/>Dans le dépôt : 7 captures d'écran réelles, 7 diagrammes UML, rapport de stage |
-| **Outils** | `Next.js 16` `Prisma` `NextAuth` `Socket.IO` |
+| **Besoin et problème** | La formation d’arbitres de handball demande de suivre les cours, les évaluations, les certifications et les échanges au fil du parcours. Sans historique centralisé, il est difficile de savoir quelle compétence a été validée et de vérifier un certificat. |
+| **Réponse apportée** | L’Académie AMDRH réunit cours, quiz, parcours de formation, messagerie et forum. Des rôles distincts encadrent la gestion des contenus et les activités des arbitres, entraîneurs et joueurs; les certificats peuvent être vérifiés par QR code. |
+| **Technologies et choix techniques** | Next.js et Prisma construisent la plateforme et son modèle de données PostgreSQL; NextAuth gère l’authentification; Socket.IO prend en charge les échanges en temps réel. |
+| **Résultats vérifiables** | Le dépôt documente 72 routes API, 30 modèles de données, cinq rôles et plus de 40 permissions. Les certificats sont générés en PDF avec vérification par QR code; le dépôt contient aussi des captures, diagrammes UML et un rapport de stage. |
 | **Accès** | [MonsterH-H/amdrh-academy](https://github.com/MonsterH-H/amdrh-academy) |
 
 <a id="pharma-manager"></a>
@@ -436,10 +435,10 @@ Fiche détaillée : [Réalisations phares](#valify). SaaS de réservation sécur
 
 | | |
 |:--|:--|
-| **Problème** | Une pharmacie doit suivre son stock, ses ventes et ses ruptures sans tableur ni inventaire manuel. |
-| **Solution** | Une application de gestion de pharmacie : stock, ventes et alertes, avec une API sécurisée et une interface web. |
-| **Réalisé** | Ventes par panier, avec annulation<br/>Alertes de stock bas, export CSV<br/>API Django REST (JWT, Swagger)<br/>Interface React 19 avec TanStack Query<br/>Docker Compose et nginx |
-| **Outils** | `Django 6` `DRF` `React 19` `PostgreSQL` `Docker` |
+| **Besoin et problème** | Une pharmacie doit savoir quels produits sont disponibles, quelles ventes ont été effectuées et quels articles approchent d’une rupture. Des mises à jour manuelles rendent ces vérifications plus difficiles et retardent le réassort. |
+| **Réponse apportée** | Pharma Manager centralise les produits, les mouvements de stock et les ventes par panier. L’application permet d’annuler une vente, signale les stocks bas et exporte les données pour le suivi. |
+| **Technologies et choix techniques** | Django REST Framework expose l’API sécurisée par JWT; React 19 fournit l’interface; PostgreSQL conserve le catalogue et les opérations; Docker Compose et Nginx assemblent le déploiement. |
+| **Résultats vérifiables** | Le produit est déployé avec une interface en ligne et une API documentée par Swagger/OpenAPI. Le dépôt inclut le backend, le frontend et l’orchestration Docker; les fonctions de vente et d’alerte sont décrites dans le code. |
 | **Accès** | [Code](https://github.com/MonsterH-H/pharma-manager) · [Application en ligne](https://pharma-manager-sigma.vercel.app) |
 
 <a id="pharmaflow"></a>
@@ -450,10 +449,10 @@ Fiche détaillée : [Réalisations phares](#valify). SaaS de réservation sécur
 
 | | |
 |:--|:--|
-| **Problème** | Au Maroc, les ordonnances circulent encore par échanges manuels entre patients, pharmacies et pharmaciens. |
-| **Solution** | Une plateforme e-santé de gestion d'ordonnances : backend, interface web et application mobile Flutter. |
-| **Réalisé** | Backend Spring Boot : ordonnances, pharmacies, pharmaciens, abonnements, notifications Twilio, documentation `MODULE-*.md`<br/>Application Flutter de 22 écrans : OTP, ordonnances par photo et QR code, pharmacies géolocalisées, notifications FCM<br/>Interface web React/Vite avec nginx et Docker |
-| **Outils** | `Spring Boot` `Flutter` `React` `PostgreSQL` |
+| **Besoin et problème** | Le suivi d’une ordonnance fait intervenir le patient, la pharmacie et le pharmacien. Le patient doit transmettre le document et connaître son état; la pharmacie doit recevoir la demande et y répondre sans perdre le fil. |
+| **Réponse apportée** | Pharmaflow propose un parcours mobile et web autour de l’ordonnance : envoi d’une photo, choix d’une pharmacie, suivi du statut et affichage d’un QR code. Le backend gère aussi les comptes professionnels, les abonnements et les notifications. |
+| **Technologies et choix techniques** | Spring Boot et PostgreSQL forment le backend; Flutter sert l’application patient; React et Vite construisent le portail web; Twilio et Firebase Cloud Messaging gèrent les notifications. |
+| **Résultats vérifiables** | L’application mobile comprend 22 écrans, dont l’inscription par OTP, l’envoi et le suivi d’ordonnances, la recherche géolocalisée de pharmacies et les notifications. Le backend et le web sont privés; le dépôt mobile est public. |
 | **Accès** | Backend et web confidentiels. Application mobile : [MonsterH-H/pharmaflow_mobile](https://github.com/MonsterH-H/pharmaflow_mobile). |
 
 <a id="buildingsense"></a>
@@ -464,19 +463,14 @@ Fiche détaillée : [Réalisations phares](#valify). SaaS de réservation sécur
 
 | | |
 |:--|:--|
-| **Problème** | Un chantier mobilise budget, comptabilité, équipes et matériel, souvent gérés dans des outils séparés. |
-| **Solution** | Un SaaS BTP tout-en-un : chantiers, budget, comptabilité, présence et rapports au même endroit. |
-| **Réalisé** | Environ 33 routes fonctionnelles : chantiers, budget, comptabilité, matériaux, équipements, pointage, rapports, documents, messagerie, tableaux de bord pour 3 rôles, assistant IA<br/>Supabase Auth, 10 RPCs, edge function d'invitations<br/>Graphiques Recharts, exports PDF avec jsPDF |
-| **Outils** | `React` `Vite` `Supabase` |
+| **Besoin et problème** | Sur un chantier, les responsables doivent suivre l’avancement, le budget, les équipes, les matériaux, le matériel et les documents. Lorsque ces informations restent dans des fichiers et échanges séparés, les mises à jour sont difficiles à consolider. |
+| **Réponse apportée** | BuildingSense rassemble le suivi des chantiers, des budgets, de la comptabilité, des présences, des équipements, des documents et des échanges dans une seule application. Les vues et droits varient selon les rôles; les rapports peuvent être exportés en PDF. |
+| **Technologies et choix techniques** | React et Vite portent l’application; Supabase fournit l’authentification, la base PostgreSQL, les fonctions SQL et les invitations; Recharts et jsPDF gèrent respectivement les graphiques et les exports. |
+| **Résultats vérifiables** | L’application est déployée en ligne et propose trois rôles, des vues de chantier et de budget, le suivi des équipes et des ressources, ainsi que des rapports exportables. Aucun gain de marge ou de productivité n’est annoncé sans mesure client. |
 | **Accès** | Code confidentiel. [Application en ligne](https://buildingsense.vercel.app). |
 
 <br/>
 
-### F. Automation et ingénierie
-
-Catégorie vide. Les candidats retenus au départ (workflows n8n, RELANCE) ne présentaient pas assez de substance vérifiable pour figurer ici.
-
-<br/>
 
 ---
 
@@ -520,16 +514,17 @@ Seules les adresses vérifiées sont listées.
 
 ## Périmètre et limites
 
-Cette sélection vient d'un audit d'environ 101 dépôts : code, structure, manifests, tests, notebooks et documentation.
+Cette sélection vient de la lecture d’environ 101 dépôts : code, structure, fichiers de dépendances, tests, notebooks et documentation. Les résultats décrits sont des livrables vérifiables; aucun gain métier n’est annoncé sans mesure à l’appui.
 
 | | |
 |:--|:--|
 | **Retenu** | Les projets dont la valeur technique se démontre dans le dépôt. Chaque chiffre renvoie à une source citée. |
-| **Pas terminé** | **Postula** est en développement actif. **Valify** est fonctionnel, mais sa mise en production attend la validation des intégrations live. |
+| **En cours / lancement** | **Postula** est en développement actif. **Valify** dispose de parcours implémentés et testés; son lancement avec paiements réels dépend encore de la configuration et de la validation des intégrations externes. |
 | **Recherche** | **MVTec** est une implémentation académique de niveau L2, pas un produit. |
-| **À relire avec réserve** | **OncoAI PRO** affiche des scores parfaits parce que le dataset public a des classes très séparables. La revalidation est documentée. |
+| **À interpréter avec prudence** | Sur **OncoAI PRO**, les classes du jeu public sont très séparables, d’où les scores parfaits. Ce résultat ne vaut pas validation clinique. |
 | **Public et privé** | **AIDIP** : la v3 est publique, la v4 est complète mais confidentielle. |
-| **Écarté** | Contenus tiers re-publiés, exercices et prototypes sans substance, métriques non vérifiables, adresses non vérifiées. Aucun dépôt n'a été supprimé. |
+| **Paiement simulé** | Le dépôt décrit un paiement simulé pour **E‑Vignette Maroc**; aucune transaction réelle n’est revendiquée. |
+| **Écarté** | Contenus tiers republiés, exercices et prototypes sans éléments vérifiables, métriques non sourcées et adresses non vérifiées. Aucun dépôt n’a été supprimé. |
 
 > **Projets confidentiels.** Valify, OmniAd AI, EDIA, Postula, FleetOpti (backend), E-Vignette, AlphaEngine, Pharmaflow, BuildingSense et AIDIP v4 sont des réalisations réelles dont le code reste privé. Les fiches contiennent uniquement des informations vérifiées et autorisées : aucun lien vers un dépôt privé, aucun secret, aucune donnée métier, aucun code source. Une démonstration peut être organisée sur demande.
 
